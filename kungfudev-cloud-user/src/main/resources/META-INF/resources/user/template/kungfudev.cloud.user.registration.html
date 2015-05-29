@@ -1,0 +1,59 @@
+<div class="well">
+
+    <h2>Register</h2>
+
+    <form name="registrationForm"
+          ng-submit="register(registrationForm)"
+          novalidate="novalidate">
+
+        <div class="form-group">
+            <label for="input_register_first_name"
+                   class="control-label">First Name <span class="label label-primary">Required</span>
+            </label>
+            <input id="input_register_first_name"
+                   class="form-control"
+                   name="firstName"
+                   type="text"
+                   required="true"
+                   ng-model="command.firstName"/>
+        </div>
+
+        <div class="form-group">
+            <label for="input_register_last_name"
+                   class="control-label">Last Name <span class="label label-primary">Required</span>
+            </label>
+            <input id="input_register_last_name"
+                   class="form-control"
+                   name="lastName"
+                   type="text"
+                   required="true"
+                   ng-model="command.lastName"/>
+        </div>
+
+        <div class="form-group">
+            <label for="input_register_email"
+                   class="control-label">Email Address <span class="label label-primary">Required</span>
+            </label>
+            <input id="input_register_email"
+                   class="form-control"
+                   name="email_address"
+                   type="email"
+                   required="true"
+                   ng-model="command.emailAddress"/>
+        </div>
+
+        <div class="form-group">
+            <label for="input_register_password"
+                   class="control-label">Password <span class="label label-primary">Required</span>
+            </label>
+            <input id="input_register_password"
+                   class="form-control"
+                   name="password"
+                   type="password"
+                   ng-model="command.password"/>
+        </div>
+
+        <button class="btn btn-primary">Register</button>
+
+    </form>
+</div>
