@@ -8,7 +8,7 @@
             "domReady": "http://cdn.jsdelivr.net/webjars/org.webjars/requirejs-domready/2.0.1/domReady",
             "jquery": "http://cdn.jsdelivr.net/webjars/org.webjars/jquery/2.1.4/jquery.min",
             "text": "http://cdn.jsdelivr.net/webjars/org.webjars/requirejs-text/2.0.10-3/text",
-            "js/common/kungfudev.cloud.common": "https://rawgit.com/kungfudev/kungfudev-cloud/master/kungfudev-cloud-common/src/main/resources/META-INF/resources/common/js/kungfudev.cloud.common"
+            "common/js/kungfudev.cloud.common": "https://rawgit.com/kungfudev/kungfudev-cloud/master/kungfudev-cloud-common/src/main/resources/META-INF/resources/common/js/kungfudev.cloud.common"
         },
         shim: {
             "angular": {deps: ["jquery"], exports: "angular"}
