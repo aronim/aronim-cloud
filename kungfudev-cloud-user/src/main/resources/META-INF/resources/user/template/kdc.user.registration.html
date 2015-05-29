@@ -2,6 +2,8 @@
 
     <h2>Register</h2>
 
+    <div class="alert alert-danger" ng-if="errorMessage">{{errorMessage}}</div>
+
     <form name="registrationForm"
           ng-submit="register(registrationForm)"
           novalidate="novalidate">

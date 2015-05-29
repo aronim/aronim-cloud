@@ -8,6 +8,6 @@ package com.kungfudev.cloud.user;
 public class UserWithEmailAddressAlreadyRegisteredException extends RuntimeException {
 
     public UserWithEmailAddressAlreadyRegisteredException() {
-        super();
+        super("User with email address already registered!");
     }
 }

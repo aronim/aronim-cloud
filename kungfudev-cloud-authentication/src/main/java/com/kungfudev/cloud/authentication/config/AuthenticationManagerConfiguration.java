@@ -10,8 +10,8 @@ public class AuthenticationManagerConfiguration extends GlobalAuthenticationConf
     @Override
     public void init(AuthenticationManagerBuilder auth) throws Exception {
         auth.inMemoryAuthentication()
-                .withUser("mstine").password("secret").roles("USER", "ADMIN").and()
-                .withUser("littleidea").password("secret").roles("USER", "ADMIN").and()
-                .withUser("starbuxman").password("secret").roles("USER", "ADMIN");
+                .withUser("mstine@bla.com").password("secret").roles("USER", "ADMIN").and()
+                .withUser("littleidea@bla.com").password("secret").roles("USER", "ADMIN").and()
+                .withUser("starbuxman@bla.com").password("secret").roles("USER", "ADMIN");
     }
 }

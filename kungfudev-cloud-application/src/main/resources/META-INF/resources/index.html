@@ -3,20 +3,35 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title>Crossover Social</title>
 
-    <link rel="stylesheet" href="http://cdn.jsdelivr.net/webjars/org.webjars/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/webjars/bootstrap/3.3.4/css/bootstrap.min.css">
 
     <script type="text/javascript"
-            data-main="../../../../../../kungfudev-cloud-common/src/main/resources/META-INF/resources/common/js/kungfudev.cloud.common.require.local.js"
-            src="http://cdn.jsdelivr.net/webjars/org.webjars/requirejs/2.1.17/require.min.js"></script>
+            data-main="/resources/common/js/kdc.common.require.js"
+            src="/webjars/requirejs/2.1.17/require.min.js"></script>
 </head>
-<body data-kdc-module="user/js/kungfudev.cloud.user.registration">
+<body data-kdc-module="js/kdc.app.index">
 
-<div class="col-lg-6">
-    <kdc-user-registration-form></kdc-user-registration-form>
-</div>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/">Crossover Social</a>
+        </div>
+    </div>
+</nav>
 
-<div class="col-lg-6">
+<div class="clearfix" style="height: 100px"></div>
 
+<div class="container">
+    <div class="row">
+
+        <div class="col-lg-6">
+            <kdc-user-registration-form></kdc-user-registration-form>
+        </div>
+
+        <div class="col-lg-6">
+            <kdc-login-form></kdc-login-form>
+        </div>
+    </div>
 </div>
 
 </body>

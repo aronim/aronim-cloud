@@ -1,0 +1,67 @@
+!function () {
+    "use strict";
+
+    define(["jquery",
+            "angular",
+            "common/js/kungfudev.cloud.common",
+            "text!###COMPONENT_NAME###/template/###MODULE_NAME###.html"],
+
+        function ($, angular, kdc, kdc###DIRECTIVE_NAME###Template) {
+
+            var module = angular.module("###MODULE_NAME###", []);
+
+            module.factory("kdc###DIRECTIVE_NAME###Service",
+                function ($q, $http) {
+
+                    return {
+                        xxx: function (command) {
+
+                            var deferred = $q.defer();
+
+                            $http
+                                .put("###SERVICE_URL###", command)
+                                .success(function(data, status, headers, config) {
+                                    deferred.resolve();
+                                })
+                                .error(function(data, status, headers, config) {
+                                    deferred.reject(data.message);
+                                });
+
+                            return deferred.promise;
+                        }
+                    }
+                }
+            );
+
+            module.controller("Kdc###DIRECTIVE_NAME###Controller",
+                function ($scope, $window, $log, kdc###DIRECTIVE_NAME###Service) {
+
+                    $scope.command = {
+                        id: kdc.common.guid()
+                    };
+
+                    $scope.xxx = function () {
+
+                        kdc###DIRECTIVE_NAME###Service
+                            .xxx($scope.command)
+                            .then(function () {
+                                $log.debug("Successful!");
+                            }, function (errorMessage) {
+                                $scope.errorMessage = errorMessage;
+                            });
+                    };
+                }
+            );
+
+            module.directive("kdc###DIRECTIVE_NAME###Form",
+                function () {
+                    return {
+                        restrict: "E",
+                        template: kdc###DIRECTIVE_NAME###Template,
+                        controller: "Kdc###DIRECTIVE_NAME###Controller"
+                    }
+                }
+            );
+        }
+    );
+}();

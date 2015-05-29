@@ -1,0 +1,32 @@
+server:
+  port: 8000
+
+zuul:
+  routes:
+#    authentication:
+#      path: /oauth/**
+#      url: http://localhost:9002/oauth/
+#    authentication-resources:
+#      path: /oauth/**
+#      url: http://localhost:9002/oauth/
+#    user-api:
+#      path: /api/users/**
+#      url: http://localhost:9001/api/users/
+#    user-resources:
+#      path: /resources/users/**
+#      url: http://localhost:9001/resources/users/
+    application-root:
+      path: /**
+      url: http://localhost:8080/
+    oauth:
+      path: /oauth/**
+      url: http://localhost:9002/oauth/
+    oauth-login:
+      path: /login
+      url: http://localhost:9002/login
+    oauth-loggedIn:
+      path: /loggedIn
+      url: http://localhost:9002/loggedIn
+    oauth-resources:
+      path: /resources/authentication/**
+      url: http://localhost:9002/resources/authentication/

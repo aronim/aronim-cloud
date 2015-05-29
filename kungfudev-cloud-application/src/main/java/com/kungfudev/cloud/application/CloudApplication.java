@@ -11,10 +11,10 @@ import org.springframework.context.annotation.ComponentScan;
  */
 @SpringBootApplication
 @ComponentScan("com.kungfudev.cloud")
-public class Application {
+public class CloudApplication {
 
     public static void main(String[] args) {
 
-        SpringApplication.run(Application.class);
+        SpringApplication.run(CloudApplication.class);
     }
 }

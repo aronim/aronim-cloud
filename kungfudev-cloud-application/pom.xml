@@ -14,7 +14,7 @@
     <artifactId>kungfudev-cloud-application</artifactId>
 
     <properties>
-        <start-class>com.kungfudev.cloud.application.Application</start-class>
+        <start-class>com.kungfudev.cloud.application.CloudApplication</start-class>
     </properties>
 
     <build>
