@@ -1,6 +1,7 @@
 package com.kungfudev.cloud.user;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.*;
 
 /**
@@ -14,8 +15,18 @@ public class UserServiceController {
     @Autowired
     private UserService userService;
 
+    @RequestMapping("/api/users/me")
+    public Authentication register(Authentication user) {
+        return user;
+    }
+
     @RequestMapping(value = "/api/users/register", method = RequestMethod.PUT)
     public void register(@RequestBody RegisterUserCommand command) {
         userService.register(command);
+    }
+
+    @RequestMapping("/internal/users/findByEmailAddress")
+    public User findByEmailAddress(@RequestParam("emailAddress") String emailAddress) {
+        return userService.findByEmailAddress(emailAddress);
     }
 }

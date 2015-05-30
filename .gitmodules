@@ -1,0 +1,3 @@
+[submodule "kungfudev-cloud-config-repo"]
+	path = kungfudev-cloud-config-repo
+	url = https://github.com/kungfudev/kungfudev-cloud-config-repo.git

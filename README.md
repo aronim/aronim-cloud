@@ -11,7 +11,7 @@ Out of the box
 - Account Management
 - Payment Management
 
-- Edge Service
+- Gateway Service
 - Authentication Service
 - Configuration Service
 - Service Monitoring
@@ -30,3 +30,8 @@ Technologies
 
 - Spring Cloud
 - Docker
+
+Development
+-----------
+
+- springloaded

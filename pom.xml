@@ -17,18 +17,42 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>kungfudev-cloud-account</module>
         <module>kungfudev-cloud-application</module>
-        <module>kungfudev-cloud-api-account</module>
-        <module>kungfudev-cloud-api-company</module>
-        <module>kungfudev-cloud-authentication</module>
         <module>kungfudev-cloud-common</module>
-        <module>kungfudev-cloud-configuration</module>
-        <module>kungfudev-cloud-edge</module>
+        <module>kungfudev-cloud-company</module>
+        <!--<module>kungfudev-cloud-configuration</module>-->
+        <module>kungfudev-cloud-gateway</module>
         <module>kungfudev-cloud-registry</module>
         <module>kungfudev-cloud-user</module>
         <module>kungfudev-cloud-web</module>
-        <module>kungfudev-cloud-web-admin</module>
+        <module>kungfudev-cloud-webjar</module>
+        <!--<module>kungfudev-cloud-web</module>-->
+        <!--<module>kungfudev-cloud-web-admin</module>-->
     </modules>
+
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.springframework</groupId>
+                        <artifactId>springloaded</artifactId>
+                        <version>1.2.3.RELEASE</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+        </plugins>
+    </build>
 
     <dependencies>
 
@@ -87,6 +111,11 @@
                 <version>4.0.1.RELEASE</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.springframework.session</groupId>
+                <artifactId>spring-session</artifactId>
+                <version>1.0.1.RELEASE</version>
+            </dependency>
 
             <!-- WebJars -->
 

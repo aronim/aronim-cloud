@@ -12,5 +12,19 @@
 
     <artifactId>kungfudev-cloud-registry</artifactId>
 
+    <properties>
+        <start-class>com.kungfudev.cloud.registry.RegistryApplication</start-class>
+    </properties>
+
+    <dependencies>
+
+        <!-- Spring -->
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-eureka-server</artifactId>
+        </dependency>
+
+    </dependencies>
     
 </project>

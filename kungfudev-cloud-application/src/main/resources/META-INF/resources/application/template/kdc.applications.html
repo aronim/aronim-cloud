@@ -1,0 +1,24 @@
+<table class="table">
+
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Instance ID</th>
+        <th>Action</th>
+    </tr>
+    </thead>
+
+    <tbody ng-repeat="application in applications">
+    <tr>
+        <td>{{application.name}}</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>{{application.instance.metadata.instanceId}}</td>
+        <td>
+            <button class="btn btn-sm btn-warning" ng-click="restart(application.instance)">Restart</button>
+            <button class="btn btn-sm btn-danger" ng-click="shutdown(application.instance)">Shutdown</button>
+        </td>
+    </tr>
+    </tbody>
+</table>

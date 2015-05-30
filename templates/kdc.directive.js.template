@@ -3,7 +3,7 @@
 
     define(["jquery",
             "angular",
-            "common/js/kungfudev.cloud.common",
+            "common/js/kdc.common",
             "text!###COMPONENT_NAME###/template/###MODULE_NAME###.html"],
 
         function ($, angular, kdc, kdc###DIRECTIVE_NAME###Template) {

@@ -14,26 +14,39 @@
     <artifactId>kungfudev-cloud-application</artifactId>
 
     <properties>
-        <start-class>com.kungfudev.cloud.application.CloudApplication</start-class>
+        <start-class>com.kungfudev.cloud.application.ApplicationApplication</start-class>
     </properties>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
     <dependencies>
 
-        <!-- KungfuDev Cloud Components -->
+        <!-- KungfuDev Cloud -->
 
         <dependency>
             <groupId>com.kungfudev.cloud</groupId>
-            <artifactId>kungfudev-cloud-user</artifactId>
+            <artifactId>kungfudev-cloud-common</artifactId>
             <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <!-- Spring -->
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-redis</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-security</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-eureka</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.session</groupId>
+            <artifactId>spring-session</artifactId>
         </dependency>
 
     </dependencies>

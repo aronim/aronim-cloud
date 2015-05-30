@@ -56,6 +56,7 @@
             module.directive("kdcUserRegistrationForm",
                 function () {
                     return {
+                        scope: {},
                         restrict: "E",
                         template: userRegistationFormTemplate,
                         controller: "KdcUserRegistrationController"

@@ -2,9 +2,10 @@
 
     <h2>Login</h2>
 
+    <div class="alert alert-danger" ng-if="errorMessage">{{errorMessage}}</div>
+
     <form name="loginForm"
           novalidate="novalidate"
-          ng-controller="LoginController"
           ng-submit="login(loginForm)">
 
         <div class="form-group">
@@ -13,10 +14,10 @@
             </label>
             <input id="input_login_email"
                    class="form-control"
-                   name="email_address"
+                   name="emailAddress"
                    type="email"
                    required="true"
-                   ng-model="command.email_address"/>
+                   ng-model="command.emailAddress"/>
         </div>
         <div class="form-group">
             <label for="input_login_password"
