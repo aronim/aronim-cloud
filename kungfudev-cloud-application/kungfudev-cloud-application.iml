@@ -4,7 +4,7 @@
     <facet type="Spring" name="Spring">
       <configuration>
         <fileset id="fileset2" name="Spring Application Context" removed="false">
-          <file>file://$MODULE_DIR$/src/main/java/com/kungfudev/cloud/application/CloudApplication.java</file>
+          <file>file://$MODULE_DIR$/src/main/java/com/kungfudev/cloud/application/ApplicationApplication.java</file>
         </fileset>
       </configuration>
     </facet>
