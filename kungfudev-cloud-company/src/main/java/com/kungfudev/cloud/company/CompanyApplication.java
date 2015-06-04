@@ -1,6 +1,7 @@
 package com.kungfudev.cloud.company;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
@@ -9,6 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * Time: 18h07
  */
 @SpringBootApplication
+@EnableAutoConfiguration
 public class CompanyApplication {
 
     public static void main(String[] args) {

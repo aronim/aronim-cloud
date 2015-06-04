@@ -34,8 +34,11 @@
         <module name="kungfudev-cloud-common" />
         <module name="kungfudev-cloud-common (1)" />
         <module name="kungfudev-cloud-company" />
+        <module name="kungfudev-cloud-component" />
+        <module name="kungfudev-cloud-configuration" />
         <module name="kungfudev-cloud-edge" />
         <module name="kungfudev-cloud-gateway" />
+        <module name="kungfudev-cloud-metric" />
         <module name="kungfudev-cloud-registry" />
         <module name="kungfudev-cloud-user" />
         <module name="kungfudev-cloud-web" />
@@ -57,9 +60,11 @@
       <module name="kungfudev-cloud-common" target="1.8" />
       <module name="kungfudev-cloud-common (1)" target="1.8" />
       <module name="kungfudev-cloud-company" target="1.8" />
-      <module name="kungfudev-cloud-configuration" target="1.6" />
+      <module name="kungfudev-cloud-component" target="1.8" />
+      <module name="kungfudev-cloud-configuration" target="1.8" />
       <module name="kungfudev-cloud-edge" target="1.8" />
       <module name="kungfudev-cloud-gateway" target="1.8" />
+      <module name="kungfudev-cloud-metric" target="1.8" />
       <module name="kungfudev-cloud-parent" target="1.8" />
       <module name="kungfudev-cloud-registry" target="1.8" />
       <module name="kungfudev-cloud-user" target="1.8" />

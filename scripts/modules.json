@@ -1,0 +1,56 @@
+[
+  {
+    "name": "kungfudev-cloud-account",
+    "type": "spring-boot-application",
+    "entryPoint": "com.kungfudev.cloud.account.AccountApplication"
+  },
+  {
+    "name": "kungfudev-cloud-common",
+    "type": "library"
+  },
+  {
+    "name": "kungfudev-cloud-company",
+    "type": "spring-boot-application",
+    "entryPoint": "com.kungfudev.cloud.company.CompanyApplication"
+  },
+  {
+    "name": "kungfudev-cloud-component",
+    "type": "spring-boot-application",
+    "entryPoint": "com.kungfudev.cloud.component.ComponentComponent"
+  },
+  {
+    "name": "kungfudev-cloud-configuration",
+    "type": "spring-boot-application",
+    "entryPoint": "com.kungfudev.cloud.configuration.ConfigurationApplication"
+  },
+  {
+    "name": "kungfudev-cloud-gateway",
+    "type": "spring-boot-application",
+    "entryPoint": "com.kungfudev.cloud.gateway.GatewayApplication"
+  },
+  {
+    "name": "kungfudev-cloud-metric",
+    "type": "spring-boot-application",
+    "entryPoint": "com.kungfudev.cloud.metric.MetricApplication"
+  },
+  {
+    "name": "kungfudev-cloud-registry",
+    "type": "spring-boot-application",
+    "entryPoint": "com.kungfudev.cloud.registry.RegistryApplication"
+  },
+  {
+    "name": "kungfudev-cloud-user",
+    "type": "spring-boot-application",
+    "entryPoint": "com.kungfudev.cloud.user.UserApplication"
+  },
+  {
+    "name": "kungfudev-cloud-web",
+    "type": "spring-boot-application",
+    "entryPoint": "com.kungfudev.cloud.web.WebApplication"
+  },
+  {
+    "name": "kungfudev-cloud-webjar",
+    "type": "spring-boot-application",
+    "entryPoint": "com.kungfudev.cloud.webjar.WebJarApplication"
+  }
+]

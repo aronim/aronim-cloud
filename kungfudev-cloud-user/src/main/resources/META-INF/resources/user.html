@@ -4,20 +4,23 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title>KungfuDev Cloud</title>
 
-    <link rel="stylesheet" href="http://cloud.kungfudev.com/webjars/bootstrap/3.3.4/css/bootstrap.css">
+    <link rel="stylesheet" href="/webjars/bootstrap/3.3.4/css/bootstrap.css">
 
     <script type="text/javascript"
-            data-main="http://cloud.kungfudev.com/resources/common/js/kdc.common.require.local"
-            src="http://cloud.kungfudev.com/webjars/requirejs/2.1.17/require.js"></script>
+            data-main="/resources/common/js/kdc.common.require.local"
+            src="/webjars/requirejs/2.1.17/require.js"></script>
 </head>
 <body data-kdc-module="user/js/kdc.user.registration">
 
-<div class="col-lg-6">
-    <kdc-user-registration-form></kdc-user-registration-form>
+<div class="row">
+    <div class="col-lg-6 col-lg-offset-3">
+        <kdc-user-registration-form></kdc-user-registration-form>
+    </div>
 </div>
-
-<div class="col-lg-6">
-
+<div class="row">
+    <div class="col-lg-6 col-lg-offset-3">
+        <kdc-user-login-form></kdc-user-login-form>
+    </div>
 </div>
 
 </body>

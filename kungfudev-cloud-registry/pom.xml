@@ -18,7 +18,12 @@
 
     <dependencies>
 
-        <!-- Spring -->
+        <!-- Spring Cloud -->
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-config-client</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -26,5 +31,5 @@
         </dependency>
 
     </dependencies>
-    
+
 </project>

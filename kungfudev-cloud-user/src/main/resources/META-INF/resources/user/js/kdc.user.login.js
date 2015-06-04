@@ -1,4 +1,4 @@
-!function () {
+(function () {
     "use strict";
 
     define(["jquery",
@@ -18,7 +18,9 @@
 
                             var deferred = $q.defer();
 
-                            var headers = {authorization: "Basic " + $window.btoa(command.emailAddress + ":" + command.password)};
+                            var headers = {
+                                authorization: "Basic " + $window.btoa(command.emailAddress + ":" + command.password)
+                            };
 
                             $http.get("/login", {headers: headers})
                                 .success(function (data) {
@@ -29,7 +31,7 @@
 
                             return deferred.promise;
                         }
-                    }
+                    };
                 }
             );
 
@@ -59,9 +61,9 @@
                                     });
                             };
                         }
-                    }
+                    };
                 }
             );
         }
     );
-}();
+}());

@@ -19,7 +19,7 @@ public class UserService {
         String userId = command.getId();
         String userEmailAddress = command.getEmailAddress();
 
-        User user = userRepository.findUserByEmailAddress(userEmailAddress);
+        User user = userRepository.findByEmailAddress(userEmailAddress);
         if (user != null) {
 
             if (!user.getId().equals(userId)) {
@@ -43,6 +43,10 @@ public class UserService {
 
     public User findByEmailAddress(String emailAddress) {
 
-        return userRepository.findUserByEmailAddress(emailAddress);
+        return userRepository.findByEmailAddress(emailAddress);
+    }
+
+    public Boolean userWithEmailAddressExists(String emailAddress) {
+        return userRepository.userWithEmailAddressExists(emailAddress);
     }
 }

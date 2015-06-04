@@ -2,20 +2,6 @@ spring:
   application:
     name: kungfudev-cloud-webjar
 
-endpoints:
-  shutdown:
-    enabled: true
-  restart:
-    enabled: true
-
-security:
-  user:
-    password: password
-
 server:
   port: 0
 
-eureka:
-  instance:
-    metadataMap:
-      instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}

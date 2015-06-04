@@ -1,3 +1,7 @@
+spring:
+  application:
+    name: kungfudev-cloud-registry
+
 server:
   port: 8761
 
@@ -9,13 +13,3 @@ eureka:
     fetchRegistry: false
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
-
-endpoints:
-  shutdown:
-    enabled: true
-  restart:
-    enabled: true
-
-security:
-  user:
-    password: password

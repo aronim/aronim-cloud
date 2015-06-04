@@ -9,5 +9,7 @@ public interface UserRepository {
 
     void save(User user);
 
-    User findUserByEmailAddress(String emailAddress);
+    User findByEmailAddress(String emailAddress);
+
+    Boolean userWithEmailAddressExists(String emailAddress);
 }

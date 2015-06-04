@@ -37,11 +37,20 @@ public class MongoUserRepository implements UserRepository {
     }
 
     @Override
-    public User findUserByEmailAddress(String emailAddress) {
+    public User findByEmailAddress(String emailAddress) {
 
         Query query = new Query()
                 .addCriteria(where("emailAddress").is(emailAddress));
 
         return mongoTemplate.findOne(query, User.class, COLLECTION_NAME);
+    }
+
+    @Override
+    public Boolean userWithEmailAddressExists(String emailAddress) {
+
+        Query query = new Query()
+                .addCriteria(where("emailAddress").is(emailAddress));
+
+        return mongoTemplate.exists(query, User.class, COLLECTION_NAME);
     }
 }

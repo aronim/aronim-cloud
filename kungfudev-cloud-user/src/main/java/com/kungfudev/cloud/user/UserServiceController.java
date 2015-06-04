@@ -25,6 +25,11 @@ public class UserServiceController {
         userService.register(command);
     }
 
+    @RequestMapping("/api/users/exists")
+    public Boolean doesUserWithEmailAddressExists(@RequestParam("emailAddress") String emailAddress) {
+        return userService.userWithEmailAddressExists(emailAddress);
+    }
+
     @RequestMapping("/internal/users/findByEmailAddress")
     public User findByEmailAddress(@RequestParam("emailAddress") String emailAddress) {
         return userService.findByEmailAddress(emailAddress);

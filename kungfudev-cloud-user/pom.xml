@@ -12,6 +12,47 @@
 
     <artifactId>kungfudev-cloud-user</artifactId>
 
+    <properties>
+        <start-class>com.kungfudev.cloud.user.UserApplication</start-class>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.github.eirslett</groupId>
+                <artifactId>frontend-maven-plugin</artifactId>
+                <version>0.0.23</version>
+                <executions>
+                    <execution>
+                        <id>install-node-and-npm</id>
+                        <goals>
+                            <goal>install-node-and-npm</goal>
+                        </goals>
+                        <phase>process-resources</phase>
+                        <configuration>
+                            <nodeVersion>v0.10.31</nodeVersion>
+                            <npmVersion>2.7.4</npmVersion>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>npm</id>
+                        <goals>
+                            <goal>npm</goal>
+                        </goals>
+                        <phase>process-resources</phase>
+                    </execution>
+                    <execution>
+                        <id>gulp</id>
+                        <goals>
+                            <goal>gulp</goal>
+                        </goals>
+                        <phase>process-resources</phase>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
     <dependencies>
 
         <!-- KungfuDev Cloud -->
@@ -20,6 +61,13 @@
             <groupId>com.kungfudev.cloud</groupId>
             <artifactId>kungfudev-cloud-common</artifactId>
             <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.kungfudev.cloud</groupId>
+            <artifactId>kungfudev-cloud-webjar</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>test</scope>
         </dependency>
 
         <!-- Spring -->
@@ -32,6 +80,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-mongodb</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-config-client</artifactId>
         </dependency>
 
         <dependency>
@@ -50,5 +103,5 @@
         </dependency>
 
     </dependencies>
-    
+
 </project>

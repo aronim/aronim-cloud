@@ -1,6 +1,6 @@
 <div class="well">
 
-    <h2>Register</h2>
+    <h3>Register</h3>
 
     <div class="alert alert-danger" ng-if="errorMessage">{{errorMessage}}</div>
 
@@ -41,7 +41,8 @@
                    name="email_address"
                    type="email"
                    required="true"
-                   ng-model="command.emailAddress"/>
+                   ng-model="command.emailAddress"
+                   ng-model-options="{ updateOn: 'blur' }"/>
         </div>
 
         <div class="form-group">

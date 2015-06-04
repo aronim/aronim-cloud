@@ -1,8 +1,10 @@
 package com.kungfudev.cloud.web;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.ImportResource;
@@ -10,8 +12,11 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.session.data.redis.config.annotation.web.http.EnableRedisHttpSession;
+import org.springframework.web.filter.ShallowEtagHeaderFilter;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+
+import javax.servlet.Filter;
 
 /**
  * User: Kevin W. Sewell
@@ -23,6 +28,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 @EnableEurekaClient
 @SpringBootApplication
 @EnableRedisHttpSession
+@EnableAutoConfiguration
 public class WebApplication {
 
     public static void main(String[] args) {
@@ -31,6 +37,11 @@ public class WebApplication {
 
     @Configuration
     protected static class SpringWebMvcConfiguration extends WebMvcConfigurerAdapter {
+
+        @Bean
+        public Filter shallowETagHeaderFilter() {
+            return new ShallowEtagHeaderFilter();
+        }
 
         @Override
         public void addResourceHandlers(ResourceHandlerRegistry registry) {
@@ -51,7 +62,8 @@ public class WebApplication {
                     .antMatchers("/resources/**").permitAll()
                     .anyRequest().authenticated()
                     .and()
-                    .csrf().disable();
+                    .csrf().disable()
+                    .headers().cacheControl().disable();
         }
     }
 }

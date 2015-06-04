@@ -1,0 +1,9 @@
+{
+  "name": "kungfudev-cloud-scripts",
+  "version": "1.0.0",
+  "description": "Development scripts for KungfuDev Cloud",
+  "dependencies": {
+    "xmldom": "^0.1.19",
+    "xpath": "0.0.9"
+  }
+}

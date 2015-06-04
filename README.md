@@ -1,7 +1,7 @@
 KungfuDev Cloud
 ===============
 
-KunfuDev Cloud is a framework for bootstrapping a scalable cloud system.
+KungfuDev Cloud is a framework for bootstrapping a scalable cloud system.
 
 Out of the box
 --------------
@@ -35,3 +35,15 @@ Development
 -----------
 
 - springloaded
+
+GOTCHAS
+-------
+
+Restart service instance keeps instanceId but changes port... Eureka does not update port
+
+Project Validation
+------------------
+
+- Project Structure
+- Module Structure
+    - Pom File

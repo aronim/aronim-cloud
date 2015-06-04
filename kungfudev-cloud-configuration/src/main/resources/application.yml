@@ -1,0 +1,19 @@
+info:
+  app:
+    name: KdcCloudConfigurationService
+    description: KungfuDev Cloud Configuration Service
+    version: 1.0-SNAPSHOT
+
+spring:
+  application:
+    name: kungfudev-cloud-configuration
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/kungfudev/kungfudev-cloud-config-repo.git
+          basedir: target/config
+
+server:
+  port: 8888
+

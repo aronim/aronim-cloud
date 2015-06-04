@@ -9,7 +9,7 @@
             data-main="/resources/common/js/kdc.common.require.js"
             src="/webjars/requirejs/2.1.17/require.min.js"></script>
 </head>
-<body data-kdc-module="js/kdc.web.index">
+<body>
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
@@ -24,11 +24,11 @@
 <div class="container">
     <div class="row">
 
-        <div class="col-lg-6">
+        <div class="col-lg-6" data-kdc-module="user/js/kdc.user.registration">
             <kdc-user-registration-form></kdc-user-registration-form>
         </div>
 
-        <div class="col-lg-6">
+        <div class="col-lg-6" data-kdc-module="user/js/kdc.user.login">
             <kdc-user-login-form></kdc-user-login-form>
         </div>
     </div>

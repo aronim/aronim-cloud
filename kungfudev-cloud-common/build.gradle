@@ -1,0 +1,5 @@
+description = ''
+
+dependencies {
+    compile group: 'org.springframework.security', name: 'spring-security-core', version: '4.0.1.RELEASE'
+}
