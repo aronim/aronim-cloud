@@ -1,7 +1,0 @@
-spring:
-  application:
-    name: kdc-webjar
-
-server:
-  port: 0
-
