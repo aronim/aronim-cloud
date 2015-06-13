@@ -1,6 +1,6 @@
 spring:
   application:
-    name: kungfudev-cloud-web
+    name: kdc-web
 
 server:
   port: 0

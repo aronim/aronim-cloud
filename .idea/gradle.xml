@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$USER_HOME$/.gvm/gradle/current" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/kungfudev-cloud-account" />
+            <option value="$PROJECT_DIR$/kungfudev-cloud-common" />
+            <option value="$PROJECT_DIR$/kungfudev-cloud-company" />
+            <option value="$PROJECT_DIR$/kungfudev-cloud-component" />
+            <option value="$PROJECT_DIR$/kungfudev-cloud-configuration" />
+            <option value="$PROJECT_DIR$/kungfudev-cloud-gateway" />
+            <option value="$PROJECT_DIR$/kungfudev-cloud-metric" />
+            <option value="$PROJECT_DIR$/kungfudev-cloud-registry" />
+            <option value="$PROJECT_DIR$/kungfudev-cloud-user" />
+            <option value="$PROJECT_DIR$/kungfudev-cloud-web" />
+            <option value="$PROJECT_DIR$/kungfudev-cloud-webjar" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

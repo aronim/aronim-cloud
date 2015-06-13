@@ -1,24 +1,12 @@
-rootProject.name = 'kungfudev-cloud-parent'
-include ':kungfudev-cloud-account'
-include ':kungfudev-cloud-api-company'
-include ':kungfudev-cloud-common'
-include ':kungfudev-cloud-component'
-include ':kungfudev-cloud-configuration'
-include ':kungfudev-cloud-gateway'
-include ':kungfudev-cloud-metric'
-include ':kungfudev-cloud-registry'
-include ':kungfudev-cloud-user'
-include ':kungfudev-cloud-web'
-include ':kungfudev-cloud-webjar'
 
-project(':kungfudev-cloud-account').projectDir = "$rootDir/kungfudev-cloud-account" as File
-project(':kungfudev-cloud-api-company').projectDir = "$rootDir/kungfudev-cloud-company" as File
-project(':kungfudev-cloud-common').projectDir = "$rootDir/kungfudev-cloud-common" as File
-project(':kungfudev-cloud-component').projectDir = "$rootDir/kungfudev-cloud-component" as File
-project(':kungfudev-cloud-configuration').projectDir = "$rootDir/kungfudev-cloud-configuration" as File
-project(':kungfudev-cloud-gateway').projectDir = "$rootDir/kungfudev-cloud-gateway" as File
-project(':kungfudev-cloud-metric').projectDir = "$rootDir/kungfudev-cloud-metric" as File
-project(':kungfudev-cloud-registry').projectDir = "$rootDir/kungfudev-cloud-registry" as File
-project(':kungfudev-cloud-user').projectDir = "$rootDir/kungfudev-cloud-user" as File
-project(':kungfudev-cloud-web').projectDir = "$rootDir/kungfudev-cloud-web" as File
-project(':kungfudev-cloud-webjar').projectDir = "$rootDir/kungfudev-cloud-webjar" as File
+include ":kungfudev-cloud-account"
+include ":kungfudev-cloud-common"
+include ":kungfudev-cloud-company"
+include ":kungfudev-cloud-component"
+include ":kungfudev-cloud-configuration"
+include ":kungfudev-cloud-gateway"
+include ":kungfudev-cloud-metric"
+include ":kungfudev-cloud-registry"
+include ":kungfudev-cloud-web"
+include ":kungfudev-cloud-webjar"
+include ":kungfudev-cloud-user"

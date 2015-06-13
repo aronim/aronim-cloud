@@ -1,0 +1,12 @@
+info:
+  app:
+    name: KdcCloudCompanyService
+    description: KungfuDev Cloud Company Service
+    version: 1.0-SNAPSHOT
+
+spring:
+  application:
+    name: kdc-company
+
+server:
+  port: 0

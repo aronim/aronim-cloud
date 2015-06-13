@@ -1,0 +1,33 @@
+{
+  "id": "docker-registry",
+  "instances": 1,
+  "cpus": 0.25,
+  "mem": 128.0,
+  "disk": 128,
+  "container": {
+    "docker": {
+      "type": "DOCKER",
+      "image": "hub.kungfudev.io/docker-registry:latest",
+      "network": "BRIDGE",
+      "parameters": [],
+      "portMappings": [
+        {
+          "hostPort": 5000,
+          "containerPort": 5000,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    "volumes": [
+      {
+        "hostPath": "/data/docker-registry/storage",
+        "containerPath": "/storage",
+        "mode": "RW"
+      }
+    ]
+  },
+  "env": {
+    "SETTINGS_FLAVOR": "local",
+    "STORAGE_PATH": "/storage"
+  }
+}

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.netflix.rxjava:rxjava-core:0.20.7">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/netflix/rxjava/rxjava-core/0.20.7/rxjava-core-0.20.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/netflix/rxjava/rxjava-core/0.20.7/rxjava-core-0.20.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

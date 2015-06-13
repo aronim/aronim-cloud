@@ -6,7 +6,7 @@ info:
 
 spring:
   application:
-    name: kungfudev-cloud-configuration
+    name: kdc-configuration
   cloud:
     config:
       server:

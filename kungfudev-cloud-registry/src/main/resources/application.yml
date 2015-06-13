@@ -1,6 +1,6 @@
 spring:
   application:
-    name: kungfudev-cloud-registry
+    name: kdc-registry
 
 server:
   port: 8761

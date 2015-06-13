@@ -1,5 +1,25 @@
-description = ''
+// Plugins
+
+apply plugin: "java"
+apply plugin: "maven"
+
+// Properties
+
+group = "com.kungfudev.cloud"
+version = "1.0-SNAPSHOT"
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+// Repositories
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+// Dependencies
 
 dependencies {
-    compile group: 'org.springframework.security', name: 'spring-security-core', version: '4.0.1.RELEASE'
+
+    compile("org.springframework.security:spring-security-core:3.2.7.RELEASE")
 }

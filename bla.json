@@ -1,0 +1,420 @@
+{
+  "endpoints.jmx.CONFIGURATION_PROPERTIES": {
+    "prefix": "endpoints.jmx",
+    "properties": {
+      "enabled": true,
+      "uniqueNames": false,
+      "domain": ""
+    }
+  },
+  "restartEndpoint": {
+    "prefix": "endpoints.restart",
+    "properties": {
+      "id": "restart",
+      "timeout": 0,
+      "sensitive": true
+    }
+  },
+  "resumeEndpoint": {
+    "prefix": "endpoints.resume",
+    "properties": {
+      "id": "resume",
+      "sensitive": true
+    }
+  },
+  "managementServerProperties": {
+    "prefix": "management",
+    "properties": {
+      "port": null,
+      "addApplicationContextHeader": true,
+      "address": null,
+      "contextPath": "",
+      "security": null
+    }
+  },
+  "pauseEndpoint": {
+    "prefix": "endpoints.pause",
+    "properties": {
+      "id": "pause",
+      "sensitive": true
+    }
+  },
+  "refreshEndpoint": {
+    "prefix": "endpoints.refresh",
+    "properties": {
+      "id": "refresh",
+      "sensitive": true
+    }
+  },
+  "spring.jackson.CONFIGURATION_PROPERTIES": {
+    "prefix": "spring.jackson",
+    "properties": {
+      "propertyNamingStrategy": null,
+      "jodaDateTimeFormat": null,
+      "dateFormat": null
+    }
+  },
+  "requestMappingEndpoint": {
+    "prefix": "endpoints.mappings",
+    "properties": {
+      "id": "mappings",
+      "sensitive": true
+    }
+  },
+  "eurekaInstanceConfigBean": {
+    "prefix": "eureka.instance",
+    "properties": {
+      "statusPageUrl": null,
+      "securePort": 443,
+      "instanceEnabledOnit": false,
+      "statusPageUrlPath": "/info",
+      "leaseRenewalIntervalInSeconds": 30,
+      "leaseExpirationDurationInSeconds": 90,
+      "nonSecurePortEnabled": true,
+      "namespace": "eureka",
+      "dataCenterInfo": {"name": "MyOwn"},
+      "secureVirtualHostName": null,
+      "healthCheckUrlPath": "/health",
+      "initialStatus": "UP",
+      "ipAddress": "172.17.0.14",
+      "appGroupName": null,
+      "secureHealthCheckUrl": null,
+      "virtualHostName": "kungfudev-cloud-registry",
+      "homePageUrlPath": "/",
+      "homePageUrl": null,
+      "hostname": "localhost",
+      "securePortEnabled": false,
+      "metadataMap": {"instanceId": "kungfudev-cloud-registry:f1afd09c327898f947991b2f413f7ebd"},
+      "nonSecurePort": 8761,
+      "appname": "kungfudev-cloud-registry",
+      "preferIpAddress": false,
+      "healthCheckUrl": null
+    }
+  },
+  "spring.mvc.CONFIGURATION_PROPERTIES": {
+    "prefix": "spring.mvc",
+    "properties": {
+      "locale": null,
+      "dateFormat": null,
+      "messageCodesResolverFormat": null,
+      "ignoreDefaultModelOnRedirect": true
+    }
+  },
+  "endpoints.health.CONFIGURATION_PROPERTIES": {
+    "prefix": "endpoints.health",
+    "properties": {"mapping": {}}
+  },
+  "shutdownEndpoint": {
+    "prefix": "endpoints.shutdown",
+    "properties": {
+      "id": "shutdown",
+      "sensitive": true
+    }
+  },
+  "spring.resources.CONFIGURATION_PROPERTIES": {
+    "prefix": "spring.resources",
+    "properties": {
+      "addMappings": true,
+      "cachePeriod": 604800
+    }
+  },
+  "spring.freemarker.CONFIGURATION_PROPERTIES": {
+    "prefix": "spring.freemarker",
+    "properties": {
+      "exposeSpringMacroHelpers": true,
+      "enabled": true,
+      "cache": false,
+      "exposeRequestAttributes": false,
+      "charSet": "UTF-8",
+      "settings": {},
+      "exposeSessionAttributes": false,
+      "charset": "UTF-8",
+      "contentType": "text/html;charset=UTF-8",
+      "suffix": ".ftl",
+      "allowRequestOverride": false,
+      "requestContextAttribute": null,
+      "checkTemplateLocation": true,
+      "templateLoaderPath": ["classpath:/templates/"],
+      "prefix": "",
+      "viewNames": null
+    }
+  },
+  "spring.http.encoding.CONFIGURATION_PROPERTIES": {
+    "prefix": "spring.http.encoding",
+    "properties": {
+      "charset": "UTF-8",
+      "force": true
+    }
+  },
+  "dumpEndpoint": {
+    "prefix": "endpoints.dump",
+    "properties": {
+      "id": "dump",
+      "sensitive": true
+    }
+  },
+  "metricsEndpoint": {
+    "prefix": "endpoints.metrics",
+    "properties": {
+      "id": "metrics",
+      "sensitive": true
+    }
+  },
+  "healthEndpoint": {
+    "prefix": "endpoints.health",
+    "properties": {
+      "id": "health",
+      "timeToLive": 1000,
+      "sensitive": false
+    }
+  },
+  "parent": {
+    "configClientProperties": {
+      "prefix": "spring.cloud.config",
+      "properties": {
+        "failFast": false,
+        "enabled": true,
+        "username": null,
+        "name": "kungfudev-cloud-registry",
+        "label": null,
+        "discovery": {
+          "enabled": false,
+          "serviceId": "CONFIGSERVER"
+        },
+        "uri": "http://kungfudev-cloud-configur.marathon.mesos:8888",
+        "password": null,
+        "profile": "marathon"
+      }
+    },
+    "spring.cloud.config.CONFIGURATION_PROPERTIES": {
+      "prefix": "spring.cloud.config",
+      "properties": {
+        "overrideSystemProperties": true,
+        "allowOverride": true
+      }
+    }
+  },
+  "http.mappers.CONFIGURATION_PROPERTIES": {
+    "prefix": "http.mappers",
+    "properties": {
+      "jsonSortKeys": null,
+      "jsonPrettyPrint": null
+    }
+  },
+  "autoConfigurationAuditEndpoint": {
+    "prefix": "endpoints.autoconfig",
+    "properties": {
+      "id": "autoconfig",
+      "sensitive": true
+    }
+  },
+  "diskSpaceHealthIndicatorProperties": {
+    "prefix": "management.health.diskspace",
+    "properties": {
+      "path": "/data/.",
+      "threshold": 10485760
+    }
+  },
+  "eureka.dashboard.CONFIGURATION_PROPERTIES": {
+    "prefix": "eureka.dashboard",
+    "properties": {
+      "enabled": true,
+      "path": "/"
+    }
+  },
+  "eurekaClientConfigBean": {
+    "prefix": "eureka.client",
+    "properties": {
+      "region": "us-east-1",
+      "eurekaServerDNSName": null,
+      "registryFetchIntervalSeconds": 30,
+      "fetchRemoteRegionsRegistry": null,
+      "filterOnlyUpInstances": true,
+      "eurekaServerTotalConnections": 200,
+      "heartbeatExecutorExponentialBackOffBound": 10,
+      "cacheRefreshExecutorThreadPoolSize": 2,
+      "escapeCharReplacement": "__",
+      "heartbeatExecutorThreadPoolSize": 2,
+      "eurekaServiceUrlPollIntervalSeconds": 300,
+      "eurekaServerTotalConnectionsPerHost": 50,
+      "logDeltaDiff": false,
+      "instanceInfoReplicationIntervalSeconds": 30,
+      "eurekaServerConnectTimeoutSeconds": 5,
+      "proxyPassword": null,
+      "enabled": true,
+      "registryRefreshSingleVipAddress": null,
+      "fetchRegistry": false,
+      "disableDelta": false,
+      "proxyHost": null,
+      "useDnsForFetchingServiceUrls": false,
+      "preferSameZoneEureka": true,
+      "proxyUserName": null,
+      "proxyPort": null,
+      "serviceUrl": {"defaultZone": "http://kungfudev-cloud-registry.marathon.mesos:8761/eureka/"},
+      "availabilityZones": {},
+      "eurekaServerPort": null,
+      "eurekaServerURLContext": null,
+      "dollarReplacement": "_-",
+      "eurekaConnectionIdleTimeoutSeconds": 30,
+      "initialInstanceInfoReplicationIntervalSeconds": 40,
+      "cacheRefreshExecutorExponentialBackOffBound": 10,
+      "backupRegistryImpl": null,
+      "registerWithEureka": false,
+      "eurekaServerReadTimeoutSeconds": 8
+    }
+  },
+  "beansEndpoint": {
+    "prefix": "endpoints.beans",
+    "properties": {
+      "id": "beans",
+      "sensitive": true
+    }
+  },
+  "traceEndpoint": {
+    "prefix": "endpoints.trace",
+    "properties": {
+      "id": "trace",
+      "sensitive": true
+    }
+  },
+  "configClientProperties": {
+    "prefix": "spring.cloud.config",
+    "properties": {
+      "failFast": false,
+      "enabled": true,
+      "username": null,
+      "name": "kungfudev-cloud-registry",
+      "label": null,
+      "discovery": {
+        "enabled": false,
+        "serviceId": "CONFIGSERVER"
+      },
+      "uri": "http://kungfudev-cloud-configur.marathon.mesos:8888",
+      "password": null,
+      "profile": "marathon"
+    }
+  },
+  "configurationPropertiesReportEndpoint": {
+    "prefix": "endpoints.configprops",
+    "properties": {
+      "id": "configprops",
+      "sensitive": true
+    }
+  },
+  "infoEndpoint": {
+    "prefix": "endpoints.info",
+    "properties": {
+      "id": "info",
+      "sensitive": false
+    }
+  },
+  "serverProperties": {
+    "prefix": "server",
+    "properties": {
+      "undertow": {
+        "bufferSize": null,
+        "buffersPerRegion": null,
+        "ioThreads": null,
+        "workerThreads": null,
+        "directBuffers": null
+      },
+      "port": 8761,
+      "tomcat": {
+        "accessLogPattern": null,
+        "accessLogEnabled": false,
+        "internalProxies": "10\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}|192\\.168\\.\\d{1,3}\\.\\d{1,3}|169\\.254\\.\\d{1,3}\\.\\d{1,3}|127\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}",
+        "protocolHeader": null,
+        "portHeader": null,
+        "remoteIpHeader": null,
+        "basedir": null,
+        "backgroundProcessorDelay": 30,
+        "maxThreads": 0,
+        "maxHttpHeaderSize": 0,
+        "uriEncoding": null,
+        "compression": "off",
+        "compressableMimeTypes": "text/html,text/xml,text/plain"
+      },
+      "address": null,
+      "ssl": null,
+      "contextPath": null,
+      "servletPath": "/",
+      "sessionTimeout": null
+    }
+  },
+  "management.health.status.CONFIGURATION_PROPERTIES": {
+    "prefix": "management.health.status",
+    "properties": {"order": null}
+  },
+  "multipart.CONFIGURATION_PROPERTIES": {
+    "prefix": "multipart",
+    "properties": {
+      "maxRequestSize": "10Mb",
+      "location": null,
+      "fileSizeThreshold": "0",
+      "maxFileSize": "1Mb"
+    }
+  },
+  "environmentEndpoint": {
+    "prefix": "endpoints.env",
+    "properties": {
+      "id": "env",
+      "sensitive": true
+    }
+  },
+  "eureka.server.CONFIGURATION_PROPERTIES": {
+    "prefix": "eureka.server",
+    "properties": {
+      "registrySyncRetries": 5,
+      "renewalPercentThreshold": 0.85,
+      "remoteRegionRegistryFetchInterval": 30,
+      "rateLimiterThrottleStandardClients": false,
+      "minThreadsForStatusReplication": 1,
+      "remoteRegionTotalConnections": 1000,
+      "maxElementsInPeerReplicationPool": 10000,
+      "disableDeltaForRemoteRegions": false,
+      "maxIdleThreadAgeInMinutesForPeerReplication": 15,
+      "maxIdleThreadInMinutesAgeForStatusReplication": 10,
+      "maxThreadsForPeerReplication": 20,
+      "enableSelfPreservation": true,
+      "maxTimeForReplication": 30000,
+      "remoteRegionTrustStorePassword": "******",
+      "remoteRegionReadTimeoutMs": 1000,
+      "remoteRegionTotalConnectionsPerHost": 500,
+      "syncWhenTimestampDiffers": true,
+      "peerEurekaNodesUpdateIntervalMs": 900000,
+      "remoteRegionUrls": null,
+      "remoteRegionAppWhitelist": null,
+      "renewalThresholdUpdateIntervalMs": 600000,
+      "peerNodeTotalConnections": 1000,
+      "rateLimiterRegistryFetchAverageRate": 500,
+      "rateLimiterFullFetchAverageRate": 100,
+      "maxElementsInStatusReplicationPool": 10000,
+      "batchReplication": false,
+      "maxThreadsForStatusReplication": 1,
+      "rateLimiterEnabled": false,
+      "disableTransparentFallbackToOtherRegion": false,
+      "evictionIntervalTimerInMs": 60000,
+      "rateLimiterPrivilegedClients": [],
+      "remoteRegionUrlsWithName": {},
+      "deltaRetentionTimerIntervalInMs": 30000,
+      "logIdentityHeaders": true,
+      "peerNodeConnectionIdleTimeoutSeconds": 30,
+      "remoteRegionConnectionIdleTimeoutSeconds": 30,
+      "primeAwsReplicaConnections": true,
+      "responseCacheUpdateIntervalMs": 30000,
+      "numberOfReplicationRetries": 5,
+      "disableDelta": false,
+      "responseCacheAutoExpirationInSeconds": 180,
+      "waitTimeInMsWhenSyncEmpty": 300000,
+      "peerEurekaStatusRefreshTimeIntervalMs": 30000,
+      "minThreadsForPeerReplication": 5,
+      "peerNodeReadTimeoutMs": 200,
+      "peerNodeTotalConnectionsPerHost": 500,
+      "remoteRegionTrustStore": "",
+      "retentionTimeInMSInDeltaQueue": 180000,
+      "rateLimiterBurstSize": 10,
+      "peerNodeConnectTimeoutMs": 200,
+      "remoteRegionConnectTimeoutMs": 1000
+    }
+  }
+}

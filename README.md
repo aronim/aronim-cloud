@@ -30,6 +30,9 @@ Technologies
 
 - Spring Cloud
 - Docker
+- Mesos
+- Marathon
+- MongoDB
 
 Development
 -----------
@@ -47,3 +50,23 @@ Project Validation
 - Project Structure
 - Module Structure
     - Pom File
+
+Mesos
+-----
+
+    https://docs.mesosphere.com/getting-started/datacenter/install/
+
+Docker
+------
+
+    https://docs.docker.com/installation/ubuntulinux/
+
+Story
+-----
+
+Develop a suite of components that can be reused to take an idea from conception to fruition in the shortest time
+possible. These components should be easy to deploy, test and scale in isolation.
+
+Example
+-------
+

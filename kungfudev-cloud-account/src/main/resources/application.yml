@@ -1,0 +1,12 @@
+info:
+  app:
+    name: KdcCloudAccountService
+    description: KungfuDev Cloud Account Service
+    version: 1.0-SNAPSHOT
+
+spring:
+  application:
+    name: kdc-account
+
+server:
+  port: 0

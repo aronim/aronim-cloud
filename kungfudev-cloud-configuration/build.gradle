@@ -1,4 +1,53 @@
-description = ''
+// Build Script
+
+buildscript {
+    ext {
+        springBootVersion = "1.2.3.RELEASE"
+    }
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+// Plugins
+
+apply plugin: "java"
+apply plugin: "spring-boot"
+
+// Properties
+
+group = "com.kungfudev.cloud"
+version = "1.0-SNAPSHOT"
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+// Tasks
+
+task copyToLib(type: Copy) {
+    into "$buildDir/dependencies"
+    from configurations.runtime
+}
+
+// Repositories
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+// Dependencies
+
 dependencies {
-    compile group: 'org.springframework.cloud', name: 'spring-cloud-config-server', version: '1.0.1.RELEASE'
+
+    compile("org.springframework.boot:spring-boot-starter-actuator")
+    compile("org.springframework.boot:spring-boot-starter-web")
+
+    compile("org.springframework.cloud:spring-cloud-starter:1.0.1.RELEASE")
+    compile("org.springframework.cloud:spring-cloud-config-server:1.0.1.RELEASE")
+
+    testCompile("org.springframework.boot:spring-boot-starter-test")
 }

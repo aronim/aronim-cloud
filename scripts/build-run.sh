@@ -6,8 +6,9 @@ function build {
 
     BASEDIR=$1
 
-    mvn clean dependency:copy-dependencies compile -f ${BASEDIR}/../pom.xml -DincludeScope=runtime
+#    mvn clean dependency:copy-dependencies compile -f ${BASEDIR}/../pom.xml -DincludeScope=runtime
 
+    gradle clean compileJava copyToLib -b ${BASEDIR}/../build.gradle
 }
 
 function run {
@@ -15,14 +16,14 @@ function run {
     BASEDIR=$1
     MAIN_CLASS=$2
 
-    CLASSPATH=""
-    for i in `ls ${BASEDIR}/../target/dependency/*.jar`; do
-        CLASSPATH="$i:$CLASSPATH"
+    CLASSPATH="${BASEDIR}/../src/main/resources:${BASEDIR}/../build/classes/main"
+    for i in `ls ${BASEDIR}/../build/dependencies/*.jar`; do
+        CLASSPATH="$CLASSPATH:$i"
     done;
 
-    java \
+    ${JAVA_HOME}/bin/java \
       -Xmx64m -Xms64m \
-      -cp ${CLASSPATH}:${BASEDIR}/../target/classes \
+      -cp ${CLASSPATH} \
       -javaagent:${SPRINGLOADED_PATH} \
       -noverify \
       -Dspring.profiles.active=cloud \

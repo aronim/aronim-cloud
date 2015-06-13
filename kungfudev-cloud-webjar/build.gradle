@@ -1,38 +1,70 @@
-description = ''
+// Build Script
+
+buildscript {
+    ext {
+        springBootVersion = "1.2.3.RELEASE"
+    }
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+// Plugins
+
+apply plugin: "java"
+apply plugin: "spring-boot"
+
+// Properties
+
+group = "com.kungfudev.cloud"
+version = "1.0-SNAPSHOT"
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+// Tasks
+
+task copyToLib(type: Copy) {
+    into "$buildDir/dependencies"
+    from configurations.runtime
+}
+
+// Repositories
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+// Dependencies
 
 dependencies {
-    compile project(':kungfudev-cloud-common')
-    compile group: 'org.springframework.boot', name: 'spring-boot-starter-redis', version: '1.2.3.RELEASE'
-    compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-mongodb', version: '1.2.3.RELEASE'
-    compile group: 'org.springframework.cloud', name: 'spring-cloud-config-client', version: '1.0.1.RELEASE'
-    compile group: 'org.springframework.cloud', name: 'spring-cloud-security', version: '1.0.1.RELEASE'
-    compile(group: 'org.springframework.cloud', name: 'spring-cloud-starter-eureka', version: '1.0.1.RELEASE') {
-        exclude(module: 'guice-grapher')
-        exclude(module: 'guice-assistedinject')
-        exclude(module: 'jsr166y')
-        exclude(module: 'xbean-finder')
-        exclude(module: 'asm-all')
-        exclude(module: 'guice-multibindings')
-        exclude(module: 'xbean-bundleutils')
-        exclude(module: 'commons-math')
-        exclude(module: 'netflix-infix')
-        exclude(module: 'joda-time')
-        exclude(module: 'commons-jxpath')
-        exclude(module: 'antlr-runtime')
-        exclude(module: 'stringtemplate')
-        exclude(module: 'antlr')
-        exclude(module: 'gson')
-        exclude(module: 'annotations')
-        exclude(module: 'dagger')
-        exclude(module: 'blitz4j')
-        exclude(module: 'hibernate-validator')
-    }
-    compile group: 'org.springframework.session', name: 'spring-session', version: '1.0.1.RELEASE'
-    compile group: 'org.webjars', name: 'angularjs', version: '1.3.15'
-    compile group: 'org.webjars', name: 'angular-ui-router', version: '0.2.14'
-    compile group: 'org.webjars', name: 'bootstrap', version: '3.3.4'
-    compile group: 'org.webjars', name: 'jquery', version: '2.1.4'
-    compile group: 'org.webjars', name: 'requirejs', version: '2.1.17'
-    compile group: 'org.webjars', name: 'requirejs-domready', version: '2.0.1-2'
-    compile group: 'org.webjars', name: 'requirejs-text', version: '2.0.10-3'
+
+    compile("com.kungfudev.cloud:kungfudev-cloud-common:1.0-SNAPSHOT")
+
+    compile("org.springframework.boot:spring-boot-starter-actuator")
+    compile("org.springframework.boot:spring-boot-starter-redis")
+    compile("org.springframework.boot:spring-boot-starter-web")
+
+    compile("org.springframework.cloud:spring-cloud-config-client:1.0.1.RELEASE")
+    compile("org.springframework.cloud:spring-cloud-security:1.0.1.RELEASE")
+    compile("org.springframework.cloud:spring-cloud-starter:1.0.1.RELEASE")
+    compile("org.springframework.cloud:spring-cloud-starter-eureka:1.0.1.RELEASE")
+
+    compile("org.springframework.session:spring-session:1.0.1.RELEASE")
+
+    compile("org.webjars:angularjs:1.3.15")
+    compile("org.webjars:angular-ui-router:0.2.14")
+    compile("org.webjars:bootstrap:3.3.4")
+    compile("org.webjars:jquery:2.1.4")
+    compile("org.webjars:requirejs:2.1.17")
+    compile("org.webjars:requirejs-domready:2.0.1-2")
+    compile("org.webjars:requirejs-text:2.0.10-3")
+
+    testCompile("org.springframework.boot:spring-boot-starter-test")
+    testCompile("org.seleniumhq.selenium:selenium-java:2.45.0")
+    testCompile("org.assertj:assertj-core:3.0.0")
 }
