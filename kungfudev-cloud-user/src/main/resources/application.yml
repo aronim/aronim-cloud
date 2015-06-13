@@ -1,6 +1,0 @@
-spring:
-  application:
-    name: kdc-user
-
-server:
-  port: 0
