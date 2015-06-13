@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a14447df-732c-4071-89de-17d630464beb" name="Default" comment="" />
+    <list default="true" id="a14447df-732c-4071-89de-17d630464beb" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kungfudev-cloud-configuration/bin/build-run.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kungfudev-cloud-configuration/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kungfudev-cloud-configuration/kungfudev-cloud-configuration.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kungfudev-cloud-configuration/src/main/docker/Dockerfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kungfudev-cloud-configuration/src/main/java/com/kungfudev/cloud/configuration/ConfigurationApplication.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kungfudev-cloud-configuration/src/main/resources/application.yml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="kungfudev-cloud-parent.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/kungfudev-cloud-account/target/" />
@@ -68,71 +76,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="marathon.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kungfudev-cloud-gateway/marathon.sh">
+      <file leaf-file-name=".gitmodules" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitmodules">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="330">
-              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+              <caret line="6" column="68" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kungfudev-cloud-gateway/src/main/docker/Dockerfile">
+      <file leaf-file-name="split" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/split">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kungfudev-cloud-configuration.iml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kungfudev-cloud-configuration/kungfudev-cloud-configuration.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1320">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build-deploy.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kungfudev-cloud-gateway/build-deploy.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="330">
-              <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build-deploy.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kungfudev-cloud-web/build-deploy.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kungfudev-cloud-web/src/main/docker/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="315">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EurekaInstanceConfigBean.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.0.1.RELEASE/spring-cloud-netflix-core-1.0.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/EurekaInstanceConfigBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="367" max-vertical-offset="1815">
-              <caret line="58" column="29" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.22770399" vertical-offset="0" max-vertical-offset="527">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -5417,9 +5375,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/docker/nginx-proxy/docker-registry.conf" />
-        <option value="$PROJECT_DIR$/docker/nginx/build.sh" />
-        <option value="$PROJECT_DIR$/docker/nginx-proxy/build.sh" />
         <option value="$PROJECT_DIR$/docker/nginx-ssl/build.sh" />
         <option value="$PROJECT_DIR$/docker/java:8/build.sh" />
         <option value="$PROJECT_DIR$/docker/java:8/Dockerfile" />
@@ -5468,6 +5423,9 @@
         <option value="$PROJECT_DIR$/marathon/kdc-registry.json" />
         <option value="$PROJECT_DIR$/kungfudev-cloud-web/src/main/docker/Dockerfile" />
         <option value="$PROJECT_DIR$/kungfudev-cloud-gateway/src/main/docker/Dockerfile" />
+        <option value="$PROJECT_DIR$/kungfudev-cloud-configuration/kungfudev-cloud-configuration.iml" />
+        <option value="$PROJECT_DIR$/.gitmodules" />
+        <option value="$PROJECT_DIR$/split" />
       </list>
     </option>
   </component>
@@ -5549,20 +5507,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="kungfudev-cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kungfudev-cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kungfudev-cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kungfudev-cloud-configuration" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -6366,7 +6310,8 @@
     <MESSAGE value="Changing marathon eureka url" />
     <MESSAGE value="Adding redis and rabbitmq to marathon config" />
     <MESSAGE value="Added docker and marathon. Fixed up gradle build." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added docker and marathon. Fixed up gradle build." />
+    <MESSAGE value="Adding kungfudev-cloud-configuration module" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding kungfudev-cloud-configuration module" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -6500,13 +6445,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kungfudev-cloud-configuration/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15018773" vertical-offset="0" max-vertical-offset="799">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kungfudev-cloud-gateway/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.037546933" vertical-offset="0" max-vertical-offset="810">
@@ -6553,13 +6491,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.037546933" vertical-offset="0" max-vertical-offset="799">
           <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kungfudev-cloud-configuration/src/main/docker/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33811477" vertical-offset="0" max-vertical-offset="488">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -6721,7 +6652,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kungfudev-cloud-gateway/build-deploy.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+        <state vertical-scroll-proportion="0.45540798" vertical-offset="0" max-vertical-offset="527">
           <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
           <folding />
         </state>
@@ -6737,7 +6668,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kungfudev-cloud-web/src/main/docker/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+        <state vertical-scroll-proportion="0.113851994" vertical-offset="0" max-vertical-offset="527">
           <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
           <folding />
         </state>
@@ -6745,16 +6676,24 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.0.1.RELEASE/spring-cloud-netflix-core-1.0.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/EurekaInstanceConfigBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="367" max-vertical-offset="1815">
+        <state vertical-scroll-proportion="0.043643262" vertical-offset="367" max-vertical-offset="1815">
           <caret line="58" column="29" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kungfudev-cloud-configuration/kungfudev-cloud-configuration.iml">
+    <entry file="file://$PROJECT_DIR$/.gitmodules">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1320">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+          <caret line="6" column="68" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/split">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22770399" vertical-offset="0" max-vertical-offset="527">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
