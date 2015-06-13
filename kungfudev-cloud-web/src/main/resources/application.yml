@@ -1,6 +1,0 @@
-spring:
-  application:
-    name: kdc-web
-
-server:
-  port: 0
