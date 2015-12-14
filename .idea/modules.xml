@@ -10,7 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/kungfudev-cloud-component/kungfudev-cloud-component.iml" filepath="$PROJECT_DIR$/kungfudev-cloud-component/kungfudev-cloud-component.iml" />
       <module fileurl="file://$PROJECT_DIR$/kungfudev-cloud-configuration/kungfudev-cloud-configuration.iml" filepath="$PROJECT_DIR$/kungfudev-cloud-configuration/kungfudev-cloud-configuration.iml" />
       <module fileurl="file://$PROJECT_DIR$/kungfudev-cloud-gateway/kungfudev-cloud-gateway.iml" filepath="$PROJECT_DIR$/kungfudev-cloud-gateway/kungfudev-cloud-gateway.iml" />
-      <module fileurl="file://$PROJECT_DIR$/kungfudev-cloud-gateway-tests/kungfudev-cloud-gateway-tests.iml" filepath="$PROJECT_DIR$/kungfudev-cloud-gateway-tests/kungfudev-cloud-gateway-tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kungfudev-cloud-gateway-test/kungfudev-cloud-gateway-tests.iml" filepath="$PROJECT_DIR$/kungfudev-cloud-gateway-test/kungfudev-cloud-gateway-tests.iml" />
       <module fileurl="file://$PROJECT_DIR$/kungfudev-cloud-metric/kungfudev-cloud-metric.iml" filepath="$PROJECT_DIR$/kungfudev-cloud-metric/kungfudev-cloud-metric.iml" />
       <module fileurl="file://$PROJECT_DIR$/kungfudev-cloud-registry/kungfudev-cloud-registry.iml" filepath="$PROJECT_DIR$/kungfudev-cloud-registry/kungfudev-cloud-registry.iml" />
       <module fileurl="file://$PROJECT_DIR$/kungfudev-cloud-user/kungfudev-cloud-user.iml" filepath="$PROJECT_DIR$/kungfudev-cloud-user/kungfudev-cloud-user.iml" />

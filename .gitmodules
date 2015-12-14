@@ -1,44 +1,48 @@
 
 [submodule "kungfudev-cloud-account"]
 	path = kungfudev-cloud-account
-	url = https://github.com/kungfudev/kungfudev-cloud-account.git
+	url = git@git.aronim.com:cloud/kungfudev-cloud-account.git
 
 [submodule "kungfudev-cloud-common"]
 	path = kungfudev-cloud-common
-	url = https://github.com/kungfudev/kungfudev-cloud-common.git
+	url = git@git.aronim.com:cloud/kungfudev-cloud-common.git
 
 [submodule "kungfudev-cloud-common-test"]
 	path = kungfudev-cloud-common-test
-	url = https://github.com/kungfudev/kungfudev-cloud-common-test.git
+	url = git@git.aronim.com:cloud/kungfudev-cloud-common-test.git
 
 [submodule "kungfudev-cloud-company"]
 	path = kungfudev-cloud-company
-	url = https://github.com/kungfudev/kungfudev-cloud-company.git
+	url = git@git.aronim.com:cloud/kungfudev-cloud-company.git
 
 [submodule "kungfudev-cloud-component"]
 	path = kungfudev-cloud-component
-	url = https://github.com/kungfudev/kungfudev-cloud-component.git
-
-[submodule "kungfudev-cloud-gateway"]
-	path = kungfudev-cloud-gateway
-	url = https://github.com/kungfudev/kungfudev-cloud-gateway.git
-
-[submodule "kungfudev-cloud-metric"]
-	path = kungfudev-cloud-metric
-	url = https://github.com/kungfudev/kungfudev-cloud-metric.git
-
-[submodule "kungfudev-cloud-registry"]
-	path = kungfudev-cloud-registry
-	url = https://github.com/kungfudev/kungfudev-cloud-registry.git
-
-[submodule "kungfudev-cloud-user"]
-	path = kungfudev-cloud-user
-	url = https://github.com/kungfudev/kungfudev-cloud-user.git
+	url = git@git.aronim.com:cloud/kungfudev-cloud-component.git
 
 [submodule "kungfudev-cloud-config-repo"]
 	path = kungfudev-cloud-config-repo
-	url = https://github.com/kungfudev/kungfudev-cloud-config-repo.git
+	url = git@git.aronim.com:cloud/kungfudev-cloud-config-repo.git
 
 [submodule "kungfudev-cloud-configuration"]
 	path = kungfudev-cloud-configuration
-	url = https://github.com/kungfudev/kungfudev-cloud-configuration.git
+	url = git@git.aronim.com:cloud/kungfudev-cloud-configuration.git
+
+[submodule "kungfudev-cloud-gateway"]
+	path = kungfudev-cloud-gateway
+	url = git@git.aronim.com:cloud/kungfudev-cloud-gateway.git
+
+[submodule "kungfudev-cloud-gateway-test"]
+	path = kungfudev-cloud-gateway-test
+	url = git@git.aronim.com:cloud/kungfudev-cloud-gateway-test.git
+
+[submodule "kungfudev-cloud-metric"]
+	path = kungfudev-cloud-metric
+	url = git@git.aronim.com:cloud/kungfudev-cloud-metric.git
+
+[submodule "kungfudev-cloud-registry"]
+	path = kungfudev-cloud-registry
+	url = git@git.aronim.com:cloud/kungfudev-cloud-registry.git
+
+[submodule "kungfudev-cloud-user"]
+	path = kungfudev-cloud-user
+	url = git@git.aronim.com:cloud/kungfudev-cloud-user.git
