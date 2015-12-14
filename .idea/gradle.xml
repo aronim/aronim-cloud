@@ -11,15 +11,31 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/kungfudev-cloud-account" />
             <option value="$PROJECT_DIR$/kungfudev-cloud-common" />
+            <option value="$PROJECT_DIR$/kungfudev-cloud-common-test" />
             <option value="$PROJECT_DIR$/kungfudev-cloud-company" />
             <option value="$PROJECT_DIR$/kungfudev-cloud-component" />
             <option value="$PROJECT_DIR$/kungfudev-cloud-configuration" />
             <option value="$PROJECT_DIR$/kungfudev-cloud-gateway" />
+            <option value="$PROJECT_DIR$/kungfudev-cloud-gateway-tests" />
             <option value="$PROJECT_DIR$/kungfudev-cloud-metric" />
             <option value="$PROJECT_DIR$/kungfudev-cloud-registry" />
             <option value="$PROJECT_DIR$/kungfudev-cloud-user" />
-            <option value="$PROJECT_DIR$/kungfudev-cloud-web" />
-            <option value="$PROJECT_DIR$/kungfudev-cloud-webjar" />
+          </set>
+        </option>
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/kungfudev-cloud-account" />
+            <option value="$PROJECT_DIR$/kungfudev-cloud-common" />
+            <option value="$PROJECT_DIR$/kungfudev-cloud-common-test" />
+            <option value="$PROJECT_DIR$/kungfudev-cloud-company" />
+            <option value="$PROJECT_DIR$/kungfudev-cloud-component" />
+            <option value="$PROJECT_DIR$/kungfudev-cloud-configuration" />
+            <option value="$PROJECT_DIR$/kungfudev-cloud-gateway" />
+            <option value="$PROJECT_DIR$/kungfudev-cloud-gateway-tests" />
+            <option value="$PROJECT_DIR$/kungfudev-cloud-metric" />
+            <option value="$PROJECT_DIR$/kungfudev-cloud-registry" />
+            <option value="$PROJECT_DIR$/kungfudev-cloud-user" />
           </set>
         </option>
       </GradleProjectSettings>

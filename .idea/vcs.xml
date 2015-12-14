@@ -3,7 +3,17 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/kungfudev-cloud-account" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/kungfudev-cloud-common" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/kungfudev-cloud-common-test" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/kungfudev-cloud-company" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/kungfudev-cloud-component" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/kungfudev-cloud-config-repo" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/kungfudev-cloud-config-repo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/kungfudev-cloud-configuration" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/kungfudev-cloud-gateway" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/kungfudev-cloud-metric" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/kungfudev-cloud-registry" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/kungfudev-cloud-user" vcs="Git" />
   </component>
 </project>

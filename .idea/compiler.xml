@@ -40,9 +40,7 @@
         <module name="kungfudev-cloud-metric" />
         <module name="kungfudev-cloud-registry" />
         <module name="kungfudev-cloud-user" />
-        <module name="kungfudev-cloud-web" />
         <module name="kungfudev-cloud-web-parent" />
-        <module name="kungfudev-cloud-webjar" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

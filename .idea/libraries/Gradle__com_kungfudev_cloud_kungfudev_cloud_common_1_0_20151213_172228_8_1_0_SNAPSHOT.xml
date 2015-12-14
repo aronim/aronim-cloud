@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.kungfudev.cloud:kungfudev-cloud-common-1.0-20151213.172228-8:1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kungfudev/cloud/kungfudev-cloud-common/1.0-SNAPSHOT/kungfudev-cloud-common-1.0-20151213.172228-8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kungfudev/cloud/kungfudev-cloud-common/1.0-SNAPSHOT/kungfudev-cloud-common-1.0-20151213.172228-8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

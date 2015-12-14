@@ -7,6 +7,10 @@
 	path = kungfudev-cloud-common
 	url = https://github.com/kungfudev/kungfudev-cloud-common.git
 
+[submodule "kungfudev-cloud-common-test"]
+	path = kungfudev-cloud-common-test
+	url = https://github.com/kungfudev/kungfudev-cloud-common-test.git
+
 [submodule "kungfudev-cloud-company"]
 	path = kungfudev-cloud-company
 	url = https://github.com/kungfudev/kungfudev-cloud-company.git
@@ -30,14 +34,6 @@
 [submodule "kungfudev-cloud-user"]
 	path = kungfudev-cloud-user
 	url = https://github.com/kungfudev/kungfudev-cloud-user.git
-
-[submodule "kungfudev-cloud-web"]
-	path = kungfudev-cloud-web
-	url = https://github.com/kungfudev/kungfudev-cloud-web.git
-
-[submodule "kungfudev-cloud-webjar"]
-	path = kungfudev-cloud-webjar
-	url = https://github.com/kungfudev/kungfudev-cloud-webjar.git
 
 [submodule "kungfudev-cloud-config-repo"]
 	path = kungfudev-cloud-config-repo
