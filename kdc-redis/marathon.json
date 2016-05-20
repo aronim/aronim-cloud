@@ -1,12 +1,12 @@
 {
-  "id": "kdc-redis",
+  "id": "ac-redis",
   "instances": 1,
   "cpus": 0.25,
   "mem": 128.0,
   "container": {
     "docker": {
       "type": "DOCKER",
-      "image": "hub.kungfudev.io/kdc-redis:latest",
+      "image": "hub.aronim.com/ac-redis:latest",
       "network": "BRIDGE",
       "parameters": [],
       "portMappings": [
@@ -19,7 +19,7 @@
     },
     "volumes": [
       {
-        "hostPath": "/data/kdc-redis/storage",
+        "hostPath": "/data/ac-redis/storage",
         "containerPath": "/data",
         "mode": "RW"
       }

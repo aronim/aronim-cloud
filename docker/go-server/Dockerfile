@@ -1,4 +1,5 @@
-FROM hub.kungfudev.io/java:7
+FROM hub.aronim.io/java:7
+
 MAINTAINER Kevin W. Sewell <kevin.w.sewell@gmail.com>
 
 RUN rm -rf /etc/service/sshd /etc/my_init.d/00_regen_ssh_host_keys.sh

@@ -7,7 +7,7 @@
   "container": {
     "docker": {
       "type": "DOCKER",
-      "image": "hub.kungfudev.io/nginx-proxy",
+      "image": "hub.aronim.com/nginx-proxy",
       "network": "BRIDGE",
       "parameters": [],
       "portMappings": [

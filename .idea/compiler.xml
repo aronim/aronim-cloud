@@ -23,52 +23,52 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="kungfudev-cloud-account" />
-        <module name="kungfudev-cloud-api" />
-        <module name="kungfudev-cloud-api-account" />
-        <module name="kungfudev-cloud-api-company" />
-        <module name="kungfudev-cloud-api-user" />
-        <module name="kungfudev-cloud-application" />
-        <module name="kungfudev-cloud-auth-server" />
-        <module name="kungfudev-cloud-common" />
-        <module name="kungfudev-cloud-common (1)" />
-        <module name="kungfudev-cloud-company" />
-        <module name="kungfudev-cloud-component" />
-        <module name="kungfudev-cloud-configuration" />
-        <module name="kungfudev-cloud-edge" />
-        <module name="kungfudev-cloud-gateway" />
-        <module name="kungfudev-cloud-metric" />
-        <module name="kungfudev-cloud-registry" />
-        <module name="kungfudev-cloud-user" />
-        <module name="kungfudev-cloud-web-parent" />
+        <module name="aronim-cloud-account" />
+        <module name="aronim-cloud-api" />
+        <module name="aronim-cloud-api-account" />
+        <module name="aronim-cloud-api-company" />
+        <module name="aronim-cloud-api-user" />
+        <module name="aronim-cloud-application" />
+        <module name="aronim-cloud-auth-server" />
+        <module name="aronim-cloud-common" />
+        <module name="aronim-cloud-common (1)" />
+        <module name="aronim-cloud-company" />
+        <module name="aronim-cloud-component" />
+        <module name="aronim-cloud-configuration" />
+        <module name="aronim-cloud-edge" />
+        <module name="aronim-cloud-gateway" />
+        <module name="aronim-cloud-metric" />
+        <module name="aronim-cloud-registry" />
+        <module name="aronim-cloud-user" />
+        <module name="aronim-cloud-web-parent" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="kungfudev-cloud" target="1.6" />
-      <module name="kungfudev-cloud-account" target="1.8" />
-      <module name="kungfudev-cloud-api" target="1.6" />
-      <module name="kungfudev-cloud-api-account" target="1.6" />
-      <module name="kungfudev-cloud-api-company" target="1.6" />
-      <module name="kungfudev-cloud-api-parent" target="1.8" />
-      <module name="kungfudev-cloud-api-user" target="1.6" />
-      <module name="kungfudev-cloud-application" target="1.8" />
-      <module name="kungfudev-cloud-auth-server" target="1.6" />
-      <module name="kungfudev-cloud-authentication" target="1.6" />
-      <module name="kungfudev-cloud-common" target="1.8" />
-      <module name="kungfudev-cloud-common (1)" target="1.8" />
-      <module name="kungfudev-cloud-company" target="1.8" />
-      <module name="kungfudev-cloud-component" target="1.8" />
-      <module name="kungfudev-cloud-configuration" target="1.8" />
-      <module name="kungfudev-cloud-edge" target="1.8" />
-      <module name="kungfudev-cloud-gateway" target="1.8" />
-      <module name="kungfudev-cloud-metric" target="1.8" />
-      <module name="kungfudev-cloud-parent" target="1.8" />
-      <module name="kungfudev-cloud-registry" target="1.8" />
-      <module name="kungfudev-cloud-user" target="1.8" />
-      <module name="kungfudev-cloud-web" target="1.8" />
-      <module name="kungfudev-cloud-web-admin" target="1.6" />
-      <module name="kungfudev-cloud-web-parent" target="1.6" />
-      <module name="kungfudev-cloud-webjar" target="1.8" />
+      <module name="aronim-cloud" target="1.6" />
+      <module name="aronim-cloud-account" target="1.8" />
+      <module name="aronim-cloud-api" target="1.6" />
+      <module name="aronim-cloud-api-account" target="1.6" />
+      <module name="aronim-cloud-api-company" target="1.6" />
+      <module name="aronim-cloud-api-parent" target="1.8" />
+      <module name="aronim-cloud-api-user" target="1.6" />
+      <module name="aronim-cloud-application" target="1.8" />
+      <module name="aronim-cloud-auth-server" target="1.6" />
+      <module name="aronim-cloud-authentication" target="1.6" />
+      <module name="aronim-cloud-common" target="1.8" />
+      <module name="aronim-cloud-common (1)" target="1.8" />
+      <module name="aronim-cloud-company" target="1.8" />
+      <module name="aronim-cloud-component" target="1.8" />
+      <module name="aronim-cloud-configuration" target="1.8" />
+      <module name="aronim-cloud-edge" target="1.8" />
+      <module name="aronim-cloud-gateway" target="1.8" />
+      <module name="aronim-cloud-metric" target="1.8" />
+      <module name="aronim-cloud-parent" target="1.8" />
+      <module name="aronim-cloud-registry" target="1.8" />
+      <module name="aronim-cloud-user" target="1.8" />
+      <module name="aronim-cloud-web" target="1.8" />
+      <module name="aronim-cloud-web-admin" target="1.6" />
+      <module name="aronim-cloud-web-parent" target="1.6" />
+      <module name="aronim-cloud-webjar" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

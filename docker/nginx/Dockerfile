@@ -1,4 +1,4 @@
-FROM hub.kungfudev.io/ubuntu:latest
+FROM hub.aronim.com/ubuntu:latest
 
 MAINTAINER KungfuDev "kevin.w.sewell@gmail.com"
 

@@ -1,12 +1,12 @@
 {
-  "id": "kdc-configuration",
+  "id": "ac-configuration",
   "instances": 1,
   "cpus": 0.25,
   "mem": 128.0,
   "container": {
     "docker": {
       "type": "DOCKER",
-      "image": "hub.kungfudev.io/kungfudev-cloud-configuration:latest",
+      "image": "hub.aronim.com/kungfudev-cloud-configuration:latest",
       "network": "BRIDGE",
       "parameters": [],
       "portMappings": [

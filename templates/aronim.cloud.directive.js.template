@@ -3,14 +3,14 @@
 
     define(["jquery",
             "angular",
-            "common/js/kdc.common",
+            "common/js/aronim.cloud.common",
             "text!###COMPONENT_NAME###/template/###MODULE_NAME###.html"],
 
         function ($, angular, kdc, kdc###DIRECTIVE_NAME###Template) {
 
             var module = angular.module("###MODULE_NAME###", []);
 
-            module.factory("kdc###DIRECTIVE_NAME###Service",
+            module.factory("aronimCloud###DIRECTIVE_NAME###Service",
                 function ($q, $http) {
 
                     return {
@@ -33,11 +33,11 @@
                 }
             );
 
-            module.controller("Kdc###DIRECTIVE_NAME###Controller",
+            module.controller("AronimCloud###DIRECTIVE_NAME###Controller",
                 function ($scope, $window, $log, kdc###DIRECTIVE_NAME###Service) {
 
                     $scope.command = {
-                        id: kdc.common.guid()
+                        id: aronim.cloud.common.guid()
                     };
 
                     $scope.xxx = function () {
@@ -53,12 +53,12 @@
                 }
             );
 
-            module.directive("kdc###DIRECTIVE_NAME###Form",
+            module.directive("aronimCloud###DIRECTIVE_NAME###Form",
                 function () {
                     return {
                         restrict: "E",
                         template: kdc###DIRECTIVE_NAME###Template,
-                        controller: "Kdc###DIRECTIVE_NAME###Controller"
+                        controller: "AronimCloud###DIRECTIVE_NAME###Controller"
                     }
                 }
             );

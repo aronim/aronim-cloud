@@ -1,7 +1,7 @@
-KungfuDev Cloud
+Aronim Cloud
 ===============
 
-KungfuDev Cloud is a framework for bootstrapping a scalable cloud system.
+Aronim Cloud is a framework for bootstrapping a scalable cloud system.
 
 Out of the box
 --------------

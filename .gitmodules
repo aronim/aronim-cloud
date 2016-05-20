@@ -1,60 +1,60 @@
 
-[submodule "kungfudev-cloud-account"]
+[submodule "aronim-cloud-account"]
 	path = aronim-cloud-account
-	url = git@git.aronim.com:cloud/kungfudev-cloud-account.git
+	url = git@git.aronim.com:cloud/aronim-cloud-account.git
 	branch = master
 
-[submodule "kungfudev-cloud-common"]
+[submodule "aronim-cloud-common"]
 	path = aronim-cloud-common
-	url = git@git.aronim.com:cloud/kungfudev-cloud-common.git
+	url = git@git.aronim.com:cloud/aronim-cloud-common.git
 	branch = master
 
-[submodule "kungfudev-cloud-common-test"]
+[submodule "aronim-cloud-common-test"]
 	path = aronim-cloud-common-test
-	url = git@git.aronim.com:cloud/kungfudev-cloud-common-test.git
+	url = git@git.aronim.com:cloud/aronim-cloud-common-test.git
 	branch = master
 
-[submodule "kungfudev-cloud-company"]
+[submodule "aronim-cloud-company"]
 	path = aronim-cloud-company
-	url = git@git.aronim.com:cloud/kungfudev-cloud-company.git
+	url = git@git.aronim.com:cloud/aronim-cloud-company.git
 	branch = master
 
-[submodule "kungfudev-cloud-component"]
+[submodule "aronim-cloud-component"]
 	path = aronim-cloud-component
-	url = git@git.aronim.com:cloud/kungfudev-cloud-component.git
+	url = git@git.aronim.com:cloud/aronim-cloud-component.git
 	branch = master
 
-[submodule "kungfudev-cloud-config-repo"]
+[submodule "aronim-cloud-config-repo"]
 	path = aronim-cloud-config-repo
-	url = git@git.aronim.com:cloud/kungfudev-cloud-config-repo.git
+	url = git@git.aronim.com:cloud/aronim-cloud-config-repo.git
 	branch = master
 
-[submodule "kungfudev-cloud-configuration"]
+[submodule "aronim-cloud-configuration"]
 	path = aronim-cloud-configuration
-	url = git@git.aronim.com:cloud/kungfudev-cloud-configuration.git
+	url = git@git.aronim.com:cloud/aronim-cloud-configuration.git
 	branch = master
 
-[submodule "kungfudev-cloud-gateway"]
+[submodule "aronim-cloud-gateway"]
 	path = aronim-cloud-gateway
-	url = git@git.aronim.com:cloud/kungfudev-cloud-gateway.git
+	url = git@git.aronim.com:cloud/aronim-cloud-gateway.git
 	branch = master
 
-[submodule "kungfudev-cloud-gateway-test"]
+[submodule "aronim-cloud-gateway-test"]
 	path = aronim-cloud-gateway-test
-	url = git@git.aronim.com:cloud/kungfudev-cloud-gateway-test.git
+	url = git@git.aronim.com:cloud/aronim-cloud-gateway-test.git
 	branch = master
 
-[submodule "kungfudev-cloud-metric"]
+[submodule "aronim-cloud-metric"]
 	path = aronim-cloud-metric
-	url = git@git.aronim.com:cloud/kungfudev-cloud-metric.git
+	url = git@git.aronim.com:cloud/aronim-cloud-metric.git
 	branch = master
 
-[submodule "kungfudev-cloud-registry"]
+[submodule "aronim-cloud-registry"]
 	path = aronim-cloud-registry
-	url = git@git.aronim.com:cloud/kungfudev-cloud-registry.git
+	url = git@git.aronim.com:cloud/aronim-cloud-registry.git
 	branch = master
 
-[submodule "kungfudev-cloud-user"]
+[submodule "aronim-cloud-user"]
 	path = aronim-cloud-user
-	url = git@git.aronim.com:cloud/kungfudev-cloud-user.git
+	url = git@git.aronim.com:cloud/aronim-cloud-user.git
 	branch = master

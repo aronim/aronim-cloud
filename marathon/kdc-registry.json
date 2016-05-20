@@ -1,12 +1,12 @@
 {
-  "id": "kdc-registry",
+  "id": "ac-registry",
   "instances": 1,
   "cpus": 0.25,
   "mem": 128.0,
   "container": {
     "docker": {
       "type": "DOCKER",
-      "image": "hub.kungfudev.io/kungfudev-cloud-registry:latest",
+      "image": "hub.aronim.com/kungfudev-cloud-registry:latest",
       "network": "BRIDGE",
       "parameters": [],
       "portMappings": [

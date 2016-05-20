@@ -1,6 +1,6 @@
-FROM hub.kungfudev.io/ubuntu:latest
+FROM hub.aronim.io/ubuntu:latest
 
-MAINTAINER KungfuDev "kevin.w.sewell@gmail.com"
+MAINTAINER Kevin W. Sewell "kevin.w.sewell@gmail.com"
 
 # Installing add-apt-repository
 RUN \

@@ -1,4 +1,4 @@
-FROM hub.kungfudev.io/nginx
+FROM hub.aronim.com/nginx
 MAINTAINER KungfuDev
 
 ENV LANG C.UTF-8

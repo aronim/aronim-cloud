@@ -7,7 +7,7 @@
   "container": {
     "docker": {
       "type": "DOCKER",
-      "image": "hub.kungfudev.io/docker-registry:latest",
+      "image": "hub.aronim.com/docker-registry:latest",
       "network": "BRIDGE",
       "parameters": [],
       "portMappings": [

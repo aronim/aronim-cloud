@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
 curl -i -XDELETE \
-    "http://dev.kungfudev.io:8080/v2/apps/kdc-gateway"
+    "http://dev.aronim.com:8080/v2/apps/ac-gateway"
 
 sleep 2
 
 curl -i -XPOST \
     -H "Content-Type: application/json" \
-    -d @kdc-gateway.json \
-    "http://dev.kungfudev.io:8080/v2/apps"
+    -d @ac-gateway.json \
+    "http://dev.aronim.com:8080/v2/apps"
