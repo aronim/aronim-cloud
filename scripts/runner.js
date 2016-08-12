@@ -4,49 +4,49 @@ var exec = require("child_process").exec;
 
 var modules = [
     {
-        name: "kungfudev-cloud-configuration",
+        name: "aronim-cloud-configuration",
         code: "KDC_CFG",
         testUrl: "http://localhost:8888/health"
     },
     {
-        name: "kungfudev-cloud-registry",
+        name: "aronim-cloud-registry",
         code: "KDC_REG",
         testUrl: "http://localhost:8761/health",
-        dependencies: ["kungfudev-cloud-configuration"]
+        dependencies: ["aronim-cloud-configuration"]
     },
     {
-        name: "kungfudev-cloud-metric",
+        name: "aronim-cloud-metric",
         code: "KDC_MTC",
-        dependencies: ["kungfudev-cloud-configuration"]
+        dependencies: ["aronim-cloud-configuration"]
     },
     {
-        name: "kungfudev-cloud-account",
+        name: "aronim-cloud-account",
         code: "KDC_ACC",
-        dependencies: ["kungfudev-cloud-configuration", "kungfudev-cloud-registry"]
+        dependencies: ["aronim-cloud-configuration", "aronim-cloud-registry"]
     },
     {
-        name: "kungfudev-cloud-company",
+        name: "aronim-cloud-company",
         code: "KDC_CPY",
-        dependencies: ["kungfudev-cloud-configuration", "kungfudev-cloud-registry"]
+        dependencies: ["aronim-cloud-configuration", "aronim-cloud-registry"]
     },
     {
-        name: "kungfudev-cloud-component",
+        name: "aronim-cloud-component",
         code: "KDC_CMP",
-        dependencies: ["kungfudev-cloud-configuration", "kungfudev-cloud-registry"]
+        dependencies: ["aronim-cloud-configuration", "aronim-cloud-registry"]
     },
     {
-        name: "kungfudev-cloud-gateway",
+        name: "aronim-cloud-gateway",
         code: "KDC_GTW",
-        dependencies: ["kungfudev-cloud-configuration", "kungfudev-cloud-registry"]
+        dependencies: ["aronim-cloud-configuration", "aronim-cloud-registry"]
     },
     {
-        name: "kungfudev-cloud-user",
+        name: "aronim-cloud-user",
         code: "KDC_USR",
-        dependencies: ["kungfudev-cloud-configuration", "kungfudev-cloud-registry"]
+        dependencies: ["aronim-cloud-configuration", "aronim-cloud-registry"]
     }
 ];
 
-var baseDir = "/Users/kevin/projects/kungfudev/kungfudev-cloud";
+var baseDir = "/Users/kevin/projects/aronim/aronim-cloud";
 
 var childProcesses = {};
 

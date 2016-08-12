@@ -2,17 +2,17 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/aronim-cloud-account" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/aronim-cloud-common" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/aronim-cloud-common-test" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/aronim-cloud-company" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/aronim-cloud-component" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/aronim-cloud-config-repo" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/aronim-cloud-config-repo" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/aronim-cloud-configuration" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/aronim-cloud-gateway" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/aronim-cloud-gateway-test" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/aronim-cloud-metric" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/aronim-cloud-organisation" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/aronim-cloud-registry" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/aronim-cloud-user" vcs="Git" />
   </component>

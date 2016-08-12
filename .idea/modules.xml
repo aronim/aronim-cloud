@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/aronim-cloud.iml" filepath="$PROJECT_DIR$/aronim-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/aronim-cloud-account/aronim-cloud-account.iml" filepath="$PROJECT_DIR$/aronim-cloud-account/aronim-cloud-account.iml" />
       <module fileurl="file://$PROJECT_DIR$/aronim-cloud-common/aronim-cloud-common.iml" filepath="$PROJECT_DIR$/aronim-cloud-common/aronim-cloud-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/aronim-cloud-common-test/aronim-cloud-common-test.iml" filepath="$PROJECT_DIR$/aronim-cloud-common-test/aronim-cloud-common-test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/aronim-cloud-company/aronim-cloud-company.iml" filepath="$PROJECT_DIR$/aronim-cloud-company/aronim-cloud-company.iml" />
       <module fileurl="file://$PROJECT_DIR$/aronim-cloud-component/aronim-cloud-component.iml" filepath="$PROJECT_DIR$/aronim-cloud-component/aronim-cloud-component.iml" />
       <module fileurl="file://$PROJECT_DIR$/aronim-cloud-configuration/aronim-cloud-configuration.iml" filepath="$PROJECT_DIR$/aronim-cloud-configuration/aronim-cloud-configuration.iml" />
       <module fileurl="file://$PROJECT_DIR$/aronim-cloud-gateway/aronim-cloud-gateway.iml" filepath="$PROJECT_DIR$/aronim-cloud-gateway/aronim-cloud-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/aronim-cloud-gateway-test/aronim-cloud-gateway-test.iml" filepath="$PROJECT_DIR$/aronim-cloud-gateway-test/aronim-cloud-gateway-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/aronim-cloud-metric/aronim-cloud-metric.iml" filepath="$PROJECT_DIR$/aronim-cloud-metric/aronim-cloud-metric.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aronim-cloud-organisation/aronim-cloud-company.iml" filepath="$PROJECT_DIR$/aronim-cloud-organisation/aronim-cloud-company.iml" />
       <module fileurl="file://$PROJECT_DIR$/aronim-cloud-registry/aronim-cloud-registry.iml" filepath="$PROJECT_DIR$/aronim-cloud-registry/aronim-cloud-registry.iml" />
       <module fileurl="file://$PROJECT_DIR$/aronim-cloud-user/aronim-cloud-user.iml" filepath="$PROJECT_DIR$/aronim-cloud-user/aronim-cloud-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud.iml" filepath="$PROJECT_DIR$/cloud.iml" />
     </modules>
   </component>
 </project>

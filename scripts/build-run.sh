@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-SPRINGLOADED_PATH=/Users/kevin/.m2/repository/org/springframework/springloaded/1.2.3.RELEASE/springloaded-1.2.3.RELEASE.jar
+SPRINGLOADED_PATH=/Users/kevin/.gradle/./caches/modules-2/files-2.1/org.springframework/springloaded/1.2.5.RELEASE/5286364198a1f41d028c1d758ef7e44d2b63d6b1/springloaded-1.2.5.RELEASE.jar
 
 function build {
 
@@ -18,11 +18,13 @@ function run {
 
     CLASSPATH="${BASEDIR}/../src/main/resources:${BASEDIR}/../build/classes/main"
     for i in `ls ${BASEDIR}/../build/dependencies/*.jar`; do
-        CLASSPATH="$CLASSPATH:$i"
+        CLASSPATH="${CLASSPATH}:${i}"
     done;
 
+    echo ${CLASSPATH}
+
     ${JAVA_HOME}/bin/java \
-      -Xmx64m -Xms64m \
+      -Xmx128m -Xms128m \
       -cp ${CLASSPATH} \
       -javaagent:${SPRINGLOADED_PATH} \
       -noverify \

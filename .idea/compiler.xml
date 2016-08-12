@@ -23,7 +23,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="aronim-cloud-account" />
         <module name="aronim-cloud-api" />
         <module name="aronim-cloud-api-account" />
         <module name="aronim-cloud-api-company" />
@@ -32,14 +31,8 @@
         <module name="aronim-cloud-auth-server" />
         <module name="aronim-cloud-common" />
         <module name="aronim-cloud-common (1)" />
-        <module name="aronim-cloud-company" />
-        <module name="aronim-cloud-component" />
-        <module name="aronim-cloud-configuration" />
         <module name="aronim-cloud-edge" />
         <module name="aronim-cloud-gateway" />
-        <module name="aronim-cloud-metric" />
-        <module name="aronim-cloud-registry" />
-        <module name="aronim-cloud-user" />
         <module name="aronim-cloud-web-parent" />
       </profile>
     </annotationProcessing>

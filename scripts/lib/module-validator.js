@@ -14,8 +14,8 @@ var validateModulePomFile = function (module) {
         if (module.type == "spring-boot-application") {
 
             assertXmlFile
-                .xpathEquals("/pom:project/pom:parent/pom:groupId/text()", "com.kungfudev.cloud", "incorrect parent groupId")
-                .xpathEquals("/pom:project/pom:parent/pom:artifactId/text()", "kungfudev-cloud-parent", "incorrect parent artifactId")
+                .xpathEquals("/pom:project/pom:parent/pom:groupId/text()", "com.aronim.cloud", "incorrect parent groupId")
+                .xpathEquals("/pom:project/pom:parent/pom:artifactId/text()", "aronim-cloud-parent", "incorrect parent artifactId")
                 .xpathEquals("/pom:project/pom:parent/pom:version/text()", "1.0-SNAPSHOT", "incorrect parent version")
                 .xpathEquals("/pom:project/pom:properties/pom:start-class/text()", module.entryPoint, "incorrect start class")
                 .xpathDoesNotExist("/pom:project/pom:groupId/text()", "module groupId element should not exist")
