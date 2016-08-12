@@ -14,11 +14,6 @@
 	url = git@git.aronim.com:cloud/aronim-cloud-common-test.git
 	branch = master
 
-[submodule "aronim-cloud-organisation"]
-	path = aronim-cloud-organisation
-	url = git@git.aronim.com:cloud/aronim-cloud-organisation.git
-	branch = master
-
 [submodule "aronim-cloud-component"]
 	path = aronim-cloud-component
 	url = git@git.aronim.com:cloud/aronim-cloud-component.git
