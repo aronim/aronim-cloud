@@ -1,1 +1,0 @@
-apply from: "${projectDir}/gradle/version-${environmentName}.gradle"
