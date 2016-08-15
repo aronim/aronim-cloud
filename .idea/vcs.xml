@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/aronim-cloud-account" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/aronim-cloud-admin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/aronim-cloud-common" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/aronim-cloud-common-test" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/aronim-cloud-component" vcs="Git" />

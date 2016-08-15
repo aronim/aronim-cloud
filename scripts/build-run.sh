@@ -21,8 +21,6 @@ function run {
         CLASSPATH="${CLASSPATH}:${i}"
     done;
 
-    echo ${CLASSPATH}
-
     ${JAVA_HOME}/bin/java \
       -Xmx128m -Xms128m \
       -cp ${CLASSPATH} \

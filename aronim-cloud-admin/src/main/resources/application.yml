@@ -1,0 +1,16 @@
+info:
+  app:
+    name: AronimCloudAdminApplication
+    description: Aronim Cloud Admin Application
+    version: 1.0-SNAPSHOT
+
+spring:
+  application:
+    name: aronim-cloud-admin
+#  boot:
+#    admin:
+#      username: user
+#      password: password
+
+server:
+  port: 10000

@@ -1,0 +1,67 @@
+// Buildscript
+
+buildscript {
+    ext {
+        springBootVersion = "1.4.0.RELEASE"
+    }
+    repositories {
+        maven {
+            url nexusPublicRepositoryUrl
+            credentials {
+                username nexusDeploymentUsername
+                password nexusDeploymentPassword
+            }
+        }
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+        classpath "net.saliman:gradle-properties-plugin:1.4.4"
+    }
+}
+
+// Plugins
+
+apply plugin: "java"
+apply plugin: "spring-boot"
+apply plugin: "net.saliman.properties"
+
+apply from: "${projectDir}/gradle/version.gradle"
+apply from: "${projectDir}/gradle/maven.gradle"
+
+// Properties
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+// Tasks
+
+task copyToLib(type: Copy) {
+    into "$buildDir/dependencies"
+    from configurations.runtime
+}
+
+// Dependencies
+
+dependencies {
+
+//    compile("com.aronim.cloud:aronim-cloud-common:1.0.14")
+    compile project(":aronim-cloud-common")
+//    testCompile("com.aronim.cloud:aronim-cloud-common-test:1.0.5")
+    testCompile project(":aronim-cloud-common-test")
+
+    compile("org.springframework.boot:spring-boot-starter-actuator")
+    compile("org.springframework.boot:spring-boot-starter-data-redis")
+    compile("org.springframework.boot:spring-boot-starter-web")
+    compile("org.springframework.cloud:spring-cloud-config-client:1.1.2.RELEASE")
+    compile("org.springframework.cloud:spring-cloud-security:1.1.2.RELEASE")
+    compile("org.springframework.cloud:spring-cloud-starter:1.1.0.RELEASE")
+    compile("org.springframework.cloud:spring-cloud-starter-eureka:1.1.0.RELEASE")
+    compile("org.springframework.cloud:spring-cloud-netflix-core:1.1.5.RELEASE")
+    compile("org.springframework.session:spring-session:1.2.1.RELEASE")
+    compile("de.codecentric:spring-boot-admin-server:1.4.1")
+    compile("de.codecentric:spring-boot-admin-server-ui:1.4.1")
+
+    compile("org.apache.httpcomponents:httpclient:4.5.1")
+
+    testCompile("org.assertj:assertj-core:3.0.0")
+}

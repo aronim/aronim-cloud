@@ -1,0 +1,1 @@
+version = "${version}.${System.env.GO_PIPELINE_COUNTER}"

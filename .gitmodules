@@ -57,3 +57,6 @@
 	path = aronim-cloud-organisation
 	url = git@git.aronim.com:cloud/aronim-cloud-organisation.git
 	branch = master
+[submodule "aronim-cloud-admin"]
+	path = aronim-cloud-admin
+	url = git@git.aronim.com:cloud/aronim-cloud-admin.git
