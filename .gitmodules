@@ -60,3 +60,9 @@
 [submodule "aronim-cloud-admin"]
 	path = aronim-cloud-admin
 	url = git@git.aronim.com:cloud/aronim-cloud-admin.git
+[submodule "aronim-cloud-menu"]
+	path = aronim-cloud-menu
+	url = git@git.aronim.com:cloud/aronim-cloud-menu.git
+[submodule "aronim-cloud-incubator"]
+	path = aronim-cloud-incubator
+	url = git@git.aronim.com:cloud/aronim-cloud-incubator.git

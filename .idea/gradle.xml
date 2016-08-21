@@ -17,23 +17,7 @@
             <option value="$PROJECT_DIR$/aronim-cloud-configuration" />
             <option value="$PROJECT_DIR$/aronim-cloud-gateway" />
             <option value="$PROJECT_DIR$/aronim-cloud-gateway-test" />
-            <option value="$PROJECT_DIR$/aronim-cloud-metric" />
-            <option value="$PROJECT_DIR$/aronim-cloud-organisation" />
-            <option value="$PROJECT_DIR$/aronim-cloud-registry" />
-            <option value="$PROJECT_DIR$/aronim-cloud-user" />
-          </set>
-        </option>
-        <option name="myModules">
-          <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/aronim-cloud-account" />
-            <option value="$PROJECT_DIR$/aronim-cloud-admin" />
-            <option value="$PROJECT_DIR$/aronim-cloud-common" />
-            <option value="$PROJECT_DIR$/aronim-cloud-common-test" />
-            <option value="$PROJECT_DIR$/aronim-cloud-component" />
-            <option value="$PROJECT_DIR$/aronim-cloud-configuration" />
-            <option value="$PROJECT_DIR$/aronim-cloud-gateway" />
-            <option value="$PROJECT_DIR$/aronim-cloud-gateway-test" />
+            <option value="$PROJECT_DIR$/aronim-cloud-menu" />
             <option value="$PROJECT_DIR$/aronim-cloud-metric" />
             <option value="$PROJECT_DIR$/aronim-cloud-organisation" />
             <option value="$PROJECT_DIR$/aronim-cloud-registry" />

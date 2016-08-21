@@ -29,16 +29,18 @@
         <module name="aronim-cloud-api-user" />
         <module name="aronim-cloud-application" />
         <module name="aronim-cloud-auth-server" />
-        <module name="aronim-cloud-common" />
         <module name="aronim-cloud-common (1)" />
         <module name="aronim-cloud-edge" />
-        <module name="aronim-cloud-gateway" />
         <module name="aronim-cloud-web-parent" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="aronim-cloud" target="1.6" />
       <module name="aronim-cloud-account" target="1.8" />
+      <module name="aronim-cloud-account_main" target="1.8" />
+      <module name="aronim-cloud-account_test" target="1.8" />
+      <module name="aronim-cloud-admin_main" target="1.8" />
+      <module name="aronim-cloud-admin_test" target="1.8" />
       <module name="aronim-cloud-api" target="1.6" />
       <module name="aronim-cloud-api-account" target="1.6" />
       <module name="aronim-cloud-api-company" target="1.6" />
@@ -49,15 +51,37 @@
       <module name="aronim-cloud-authentication" target="1.6" />
       <module name="aronim-cloud-common" target="1.8" />
       <module name="aronim-cloud-common (1)" target="1.8" />
+      <module name="aronim-cloud-common-test_main" target="1.8" />
+      <module name="aronim-cloud-common-test_test" target="1.8" />
+      <module name="aronim-cloud-common_main" target="1.8" />
+      <module name="aronim-cloud-common_test" target="1.8" />
       <module name="aronim-cloud-company" target="1.8" />
       <module name="aronim-cloud-component" target="1.8" />
+      <module name="aronim-cloud-component_main" target="1.8" />
+      <module name="aronim-cloud-component_test" target="1.8" />
       <module name="aronim-cloud-configuration" target="1.8" />
+      <module name="aronim-cloud-configuration_main" target="1.8" />
+      <module name="aronim-cloud-configuration_test" target="1.8" />
       <module name="aronim-cloud-edge" target="1.8" />
       <module name="aronim-cloud-gateway" target="1.8" />
+      <module name="aronim-cloud-gateway-test_main" target="1.8" />
+      <module name="aronim-cloud-gateway-test_test" target="1.8" />
+      <module name="aronim-cloud-gateway_main" target="1.8" />
+      <module name="aronim-cloud-gateway_test" target="1.8" />
+      <module name="aronim-cloud-menu_main" target="1.8" />
+      <module name="aronim-cloud-menu_test" target="1.8" />
       <module name="aronim-cloud-metric" target="1.8" />
+      <module name="aronim-cloud-metric_main" target="1.8" />
+      <module name="aronim-cloud-metric_test" target="1.8" />
+      <module name="aronim-cloud-organisation_main" target="1.8" />
+      <module name="aronim-cloud-organisation_test" target="1.8" />
       <module name="aronim-cloud-parent" target="1.8" />
       <module name="aronim-cloud-registry" target="1.8" />
+      <module name="aronim-cloud-registry_main" target="1.7" />
+      <module name="aronim-cloud-registry_test" target="1.7" />
       <module name="aronim-cloud-user" target="1.8" />
+      <module name="aronim-cloud-user_main" target="1.8" />
+      <module name="aronim-cloud-user_test" target="1.8" />
       <module name="aronim-cloud-web" target="1.8" />
       <module name="aronim-cloud-web-admin" target="1.6" />
       <module name="aronim-cloud-web-parent" target="1.6" />
