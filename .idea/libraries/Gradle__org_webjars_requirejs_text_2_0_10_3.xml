@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.webjars:requirejs-text:2.0.10-3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.webjars/requirejs-text/2.0.10-3/32e11f72dd3b598670944057b4691a1eba44e004/requirejs-text-2.0.10-3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.webjars/requirejs-text/2.0.10-3/b2b5847baaeb513b34d285ea35e4f1d200321185/requirejs-text-2.0.10-3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
