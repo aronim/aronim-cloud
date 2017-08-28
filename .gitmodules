@@ -1,4 +1,52 @@
 
+[submodule "aronim-cloud-account"]
+	path = aronim-cloud-account
+	url = git@github.com:aronim/aronim-cloud-account.git
+[submodule "aronim-cloud-admin"]
+	path = aronim-cloud-admin
+	url = git@github.com:aronim/aronim-cloud-admin.git
+[submodule "aronim-cloud-application"]
+	path = aronim-cloud-application
+	url = git@github.com:aronim/aronim-cloud-application.git
+[submodule "aronim-cloud-application-test"]
+	path = aronim-cloud-application-test
+	url = git@github.com:aronim/aronim-cloud-application-test.git
+[submodule "aronim-cloud-common"]
+	path = aronim-cloud-common
+	url = git@github.com:aronim/aronim-cloud-common.git
+[submodule "aronim-cloud-common-test"]
+	path = aronim-cloud-common-test
+	url = git@github.com:aronim/aronim-cloud-common-test.git
+[submodule "aronim-cloud-component"]
+	path = aronim-cloud-component
+	url = git@github.com:aronim/aronim-cloud-component.git
+[submodule "aronim-cloud-configuration"]
+	path = aronim-cloud-configuration
+	url = git@github.com:aronim/aronim-cloud-configuration.git
 [submodule "aronim-cloud-config-repo"]
 	path = aronim-cloud-config-repo
 	url = git@github.com:aronim/aronim-cloud-config-repo.git
+[submodule "aronim-cloud-gateway"]
+	path = aronim-cloud-gateway
+	url = git@github.com:aronim/aronim-cloud-gateway.git
+[submodule "aronim-cloud-gateway-test"]
+	path = aronim-cloud-gateway-test
+	url = git@github.com:aronim/aronim-cloud-gateway-test.git
+[submodule "aronim-cloud-incubator"]
+	path = aronim-cloud-incubator
+	url = git@github.com:aronim/aronim-cloud-incubator.git
+[submodule "aronim-cloud-organisation"]
+	path = aronim-cloud-organisation
+	url = git@github.com:aronim/aronim-cloud-organisation.git
+[submodule "aronim-cloud-menu"]
+	path = aronim-cloud-menu
+	url = git@github.com:aronim/aronim-cloud-menu.git
+[submodule "aronim-cloud-metric"]
+	path = aronim-cloud-metric
+	url = git@github.com:aronim/aronim-cloud-metric.git
+[submodule "aronim-cloud-registry"]
+	path = aronim-cloud-registry
+	url = git@github.com:aronim/aronim-cloud-registry.git
+[submodule "aronim-cloud-user"]
+	path = aronim-cloud-user
+	url = git@github.com:aronim/aronim-cloud-user.git

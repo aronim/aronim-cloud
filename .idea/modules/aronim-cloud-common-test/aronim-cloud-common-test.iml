@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$/../../../aronim-cloud-common-test">
       <excludeFolder url="file://$MODULE_DIR$/../../../aronim-cloud-common-test/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../aronim-cloud-common-test/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../aronim-cloud-common-test/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

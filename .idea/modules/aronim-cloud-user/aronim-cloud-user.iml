@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$/../../../aronim-cloud-user">
       <excludeFolder url="file://$MODULE_DIR$/../../../aronim-cloud-user/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../aronim-cloud-user/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../aronim-cloud-user/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -12,8 +12,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/aronim-cloud-gateway/aronim-cloud-gateway_main.iml" filepath="$PROJECT_DIR$/.idea/modules/aronim-cloud-gateway/aronim-cloud-gateway_main.iml" group="aronim-cloud-gateway" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/aronim-cloud-gateway/aronim-cloud-gateway_test.iml" filepath="$PROJECT_DIR$/.idea/modules/aronim-cloud-gateway/aronim-cloud-gateway_test.iml" group="aronim-cloud-gateway" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/aronim-cloud-menu/aronim-cloud-menu.iml" filepath="$PROJECT_DIR$/.idea/modules/aronim-cloud-menu/aronim-cloud-menu.iml" group="aronim-cloud-menu" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aronim-cloud-menu/aronim-cloud-menu_main.iml" filepath="$PROJECT_DIR$/.idea/modules/aronim-cloud-menu/aronim-cloud-menu_main.iml" group="aronim-cloud-menu" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aronim-cloud-menu/aronim-cloud-menu_test.iml" filepath="$PROJECT_DIR$/.idea/modules/aronim-cloud-menu/aronim-cloud-menu_test.iml" group="aronim-cloud-menu" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/aronim-cloud-user/aronim-cloud-user.iml" filepath="$PROJECT_DIR$/.idea/modules/aronim-cloud-user/aronim-cloud-user.iml" group="aronim-cloud-user" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/aronim-cloud-user/aronim-cloud-user_main.iml" filepath="$PROJECT_DIR$/.idea/modules/aronim-cloud-user/aronim-cloud-user_main.iml" group="aronim-cloud-user" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/aronim-cloud-user/aronim-cloud-user_test.iml" filepath="$PROJECT_DIR$/.idea/modules/aronim-cloud-user/aronim-cloud-user_test.iml" group="aronim-cloud-user" />
