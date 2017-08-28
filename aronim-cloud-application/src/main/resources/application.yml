@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: aronim-cloud-application
+  data:
+    mongodb:
+      host: ds119568.mlab.com
+      password: p{aW/6.,rP?p^!4F
+      port: 19568
+      username: aronim
+      database: aronim_test
+  thymeleaf:
+    cache: false
+
+server:
+  port: 8000
+
+logging:
+  level:
+    com.aronim.cloud: DEBUG
+    org.hibernate: WARN
+    org.mongodb: WARN
+    org.springframework: WARN

@@ -12,6 +12,8 @@
     <mapping directory="$PROJECT_DIR$/aronim-cloud-configuration" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/aronim-cloud-gateway" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/aronim-cloud-gateway-test" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/aronim-cloud-incubator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/aronim-cloud-menu" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/aronim-cloud-metric" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/aronim-cloud-organisation" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/aronim-cloud-registry" vcs="Git" />

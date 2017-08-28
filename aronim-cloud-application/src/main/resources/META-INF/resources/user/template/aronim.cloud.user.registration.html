@@ -1,0 +1,55 @@
+<div class="well">
+
+    <h3>Register</h3>
+
+    <div class="alert alert-danger" ng-if="errorMessage">{{errorMessage}}</div>
+
+    <form name="registrationForm"
+          class="ac-user-registration"
+          ng-submit="register(registrationForm)"
+          novalidate="novalidate">
+
+        <div class="form-group ac-first-name">
+            <label class="control-label">First Name <span class="label label-primary">Required</span>
+            </label>
+            <input class="form-control"
+                   name="firstName"
+                   type="text"
+                   required="true"
+                   ng-model="command.firstName"/>
+        </div>
+
+        <div class="form-group ac-last-name">
+            <label class="control-label">Last Name <span class="label label-primary">Required</span>
+            </label>
+            <input class="form-control"
+                   name="lastName"
+                   type="text"
+                   required="true"
+                   ng-model="command.lastName"/>
+        </div>
+
+        <div class="form-group ac-email-address">
+            <label class="control-label">Email Address <span class="label label-primary">Required</span>
+            </label>
+            <input class="form-control"
+                   name="email_address"
+                   type="email"
+                   required="true"
+                   ng-model="command.emailAddress"
+                   ng-model-options="{ updateOn: 'blur' }"/>
+        </div>
+
+        <div class="form-group ac-password">
+            <label class="control-label">Password <span class="label label-primary">Required</span>
+            </label>
+            <input class="form-control"
+                   name="password"
+                   type="password"
+                   ng-model="command.password"/>
+        </div>
+
+        <button class="btn btn-primary ac-register">Register</button>
+
+    </form>
+</div>

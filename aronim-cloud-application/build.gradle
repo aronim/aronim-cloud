@@ -1,0 +1,83 @@
+// Build Script
+
+buildscript {
+    ext {
+        springBootVersion = "1.4.2.RELEASE"
+    }
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+// Plugins
+
+apply plugin: "java"
+apply plugin: "spring-boot"
+
+// Properties
+
+group = "com.aronim.cloud"
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+bootRepackage {
+    enabled = false
+}
+
+// Tasks
+
+task copyToLib(type: Copy) {
+    into "$buildDir/dependencies"
+    from configurations.runtime
+}
+
+// Repositories
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+// Dependencies
+
+dependencies {
+    compileOnly("org.projectlombok:lombok:1.16.10")
+
+    compile("org.springframework.boot:spring-boot-devtools")
+    compile("org.springframework.boot:spring-boot-starter-actuator")
+    compile("org.springframework.boot:spring-boot-starter-data-mongodb")
+    compile("org.springframework.boot:spring-boot-starter-web")
+    compile("org.springframework.boot:spring-boot-starFter-thymeleaf")
+
+    compile("org.springframework.cloud:spring-cloud-security:1.1.2.RELEASE")
+    compile("org.springframework.cloud:spring-cloud-starter:1.1.0.RELEASE")
+
+    compile("org.springframework.session:spring-session")
+
+    compile("org.webjars:angularjs:1.4.7")
+    compile("org.webjars:angular-ui-router:0.2.14")
+    compile("org.webjars:bootstrap:3.3.6")
+    compile("org.webjars:jquery:2.1.4")
+    compile("org.webjars:requirejs:2.1.17")
+    compile("org.webjars:requirejs-domready:2.0.1-2")
+    compile("org.webjars:requirejs-text:2.0.10-3")
+
+    testCompile("org.springframework.boot:spring-boot-starter-test")
+    testCompile("org.assertj:assertj-core:3.0.0")
+}
+
+task zip(type: Zip, dependsOn: copyToLib) {
+    from('build/libs') {
+        include "*.jar"
+    }
+    from("$buildDir/dependencies") {
+        include "*.jar"
+    }
+    from "bin"
+}
+
+build.dependsOn(zip)

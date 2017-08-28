@@ -1,0 +1,22 @@
+package com.aronim.cloud.gateway.integration.user;
+
+import lombok.Data;
+
+import java.io.Serializable;
+import java.util.Set;
+
+/**
+ * User: Kevin W. Sewell
+ * Date: 2015-05-29
+ * Time: 12h36
+ */
+@Data
+public class User implements Serializable
+{
+    private String id;
+    private String firstName;
+    private String lastName;
+    private String emailAddress;
+    private String encryptedPassword;
+    private Set<Role> roles;
+}

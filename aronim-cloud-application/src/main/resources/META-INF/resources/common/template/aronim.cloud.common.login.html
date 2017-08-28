@@ -1,0 +1,35 @@
+<div class="well">
+
+    <h3>Login</h3>
+
+    <div class="alert alert-danger" ng-if="errorMessage">{{errorMessage}}</div>
+
+    <form name="loginForm"
+          novalidate="novalidate"
+          ng-submit="login(loginForm)">
+
+        <div class="form-group">
+            <label for="input_login_email"
+                   class="control-label">Email Address <span class="label label-primary">Required</span>
+            </label>
+            <input id="input_login_email"
+                   class="form-control"
+                   name="emailAddress"
+                   type="email"
+                   required="true"
+                   ng-model="command.emailAddress"/>
+        </div>
+        <div class="form-group">
+            <label for="input_login_password"
+                   class="control-label">Password <span class="label label-primary">Required</span>
+            </label>
+            <input id="input_login_password"
+                   class="form-control"
+                   name="password"
+                   type="password"
+                   ng-model="command.password"/>
+        </div>
+        <button class="btn btn-primary">Login</button>
+    </form>
+
+</div>
