@@ -1,9 +1,4 @@
 
-[submodule "aronim-cloud-account"]
-	path = aronim-cloud-account
-	url = git@git.aronim.com:cloud/aronim-cloud-account.git
-	branch = master
-
 [submodule "aronim-cloud-common"]
 	path = aronim-cloud-common
 	url = git@git.aronim.com:cloud/aronim-cloud-common.git
