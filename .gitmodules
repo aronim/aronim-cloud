@@ -1,1 +1,4 @@
 
+[submodule "aronim-cloud-config-repo"]
+	path = aronim-cloud-config-repo
+	url = git@github.com:aronim/aronim-cloud-config-repo.git
